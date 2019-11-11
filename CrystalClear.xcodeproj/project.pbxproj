@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6723798DF300A95BF2 /* AppDelegate.swift */; };
+		52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6923798DF300A95BF2 /* SceneDelegate.swift */; };
+		52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6B23798DF300A95BF2 /* FirstViewController.swift */; };
+		52972B6E23798DF300A95BF2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6D23798DF300A95BF2 /* SecondViewController.swift */; };
+		52972B7123798DF300A95BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52972B6F23798DF300A95BF2 /* Main.storyboard */; };
+		52972B7423798DF300A95BF2 /* CrystalClear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52972B7223798DF300A95BF2 /* CrystalClear.xcdatamodeld */; };
+		52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52972B7523798DF600A95BF2 /* Assets.xcassets */; };
+		52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */; };
+		52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8323798DF600A95BF2 /* CrystalClearTests.swift */; };
+		52972B8F23798DF600A95BF2 /* CrystalClearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52972B8023798DF600A95BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52972B5C23798DF300A95BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52972B6323798DF300A95BF2;
+			remoteInfo = CrystalClear;
+		};
+		52972B8B23798DF600A95BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52972B5C23798DF300A95BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52972B6323798DF300A95BF2;
+			remoteInfo = CrystalClear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52972B6723798DF300A95BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52972B6923798DF300A95BF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52972B6B23798DF300A95BF2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		52972B6D23798DF300A95BF2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		52972B7023798DF300A95BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52972B7323798DF300A95BF2 /* CrystalClear.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrystalClear.xcdatamodel; sourceTree = "<group>"; };
+		52972B7523798DF600A95BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52972B7823798DF600A95BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52972B7A23798DF600A95BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52972B7F23798DF600A95BF2 /* CrystalClearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalClearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52972B8323798DF600A95BF2 /* CrystalClearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalClearTests.swift; sourceTree = "<group>"; };
+		52972B8523798DF600A95BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52972B8A23798DF600A95BF2 /* CrystalClearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalClearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalClearUITests.swift; sourceTree = "<group>"; };
+		52972B9023798DF600A95BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52972B6123798DF300A95BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52972B7C23798DF600A95BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52972B8723798DF600A95BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52972B5B23798DF300A95BF2 = {
+			isa = PBXGroup;
+			children = (
+				52972B6623798DF300A95BF2 /* CrystalClear */,
+				52972B8223798DF600A95BF2 /* CrystalClearTests */,
+				52972B8D23798DF600A95BF2 /* CrystalClearUITests */,
+				52972B6523798DF300A95BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52972B6523798DF300A95BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52972B6423798DF300A95BF2 /* CrystalClear.app */,
+				52972B7F23798DF600A95BF2 /* CrystalClearTests.xctest */,
+				52972B8A23798DF600A95BF2 /* CrystalClearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52972B6623798DF300A95BF2 /* CrystalClear */ = {
+			isa = PBXGroup;
+			children = (
+				52972B6723798DF300A95BF2 /* AppDelegate.swift */,
+				52972B6923798DF300A95BF2 /* SceneDelegate.swift */,
+				52972B6B23798DF300A95BF2 /* FirstViewController.swift */,
+				52972B6D23798DF300A95BF2 /* SecondViewController.swift */,
+				52972B6F23798DF300A95BF2 /* Main.storyboard */,
+				52972B7523798DF600A95BF2 /* Assets.xcassets */,
+				52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */,
+				52972B7A23798DF600A95BF2 /* Info.plist */,
+				52972B7223798DF300A95BF2 /* CrystalClear.xcdatamodeld */,
+			);
+			path = CrystalClear;
+			sourceTree = "<group>";
+		};
+		52972B8223798DF600A95BF2 /* CrystalClearTests */ = {
+			isa = PBXGroup;
+			children = (
+				52972B8323798DF600A95BF2 /* CrystalClearTests.swift */,
+				52972B8523798DF600A95BF2 /* Info.plist */,
+			);
+			path = CrystalClearTests;
+			sourceTree = "<group>";
+		};
+		52972B8D23798DF600A95BF2 /* CrystalClearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */,
+				52972B9023798DF600A95BF2 /* Info.plist */,
+			);
+			path = CrystalClearUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52972B6323798DF300A95BF2 /* CrystalClear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52972B9323798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClear" */;
+			buildPhases = (
+				52972B6023798DF300A95BF2 /* Sources */,
+				52972B6123798DF300A95BF2 /* Frameworks */,
+				52972B6223798DF300A95BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrystalClear;
+			productName = CrystalClear;
+			productReference = 52972B6423798DF300A95BF2 /* CrystalClear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52972B7E23798DF600A95BF2 /* CrystalClearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52972B9623798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClearTests" */;
+			buildPhases = (
+				52972B7B23798DF600A95BF2 /* Sources */,
+				52972B7C23798DF600A95BF2 /* Frameworks */,
+				52972B7D23798DF600A95BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52972B8123798DF600A95BF2 /* PBXTargetDependency */,
+			);
+			name = CrystalClearTests;
+			productName = CrystalClearTests;
+			productReference = 52972B7F23798DF600A95BF2 /* CrystalClearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52972B8923798DF600A95BF2 /* CrystalClearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52972B9923798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClearUITests" */;
+			buildPhases = (
+				52972B8623798DF600A95BF2 /* Sources */,
+				52972B8723798DF600A95BF2 /* Frameworks */,
+				52972B8823798DF600A95BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52972B8C23798DF600A95BF2 /* PBXTargetDependency */,
+			);
+			name = CrystalClearUITests;
+			productName = CrystalClearUITests;
+			productReference = 52972B8A23798DF600A95BF2 /* CrystalClearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52972B5C23798DF300A95BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Makers September 2019 Cohort";
+				TargetAttributes = {
+					52972B6323798DF300A95BF2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					52972B7E23798DF600A95BF2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 52972B6323798DF300A95BF2;
+					};
+					52972B8923798DF600A95BF2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 52972B6323798DF300A95BF2;
+					};
+				};
+			};
+			buildConfigurationList = 52972B5F23798DF300A95BF2 /* Build configuration list for PBXProject "CrystalClear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52972B5B23798DF300A95BF2;
+			productRefGroup = 52972B6523798DF300A95BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52972B6323798DF300A95BF2 /* CrystalClear */,
+				52972B7E23798DF600A95BF2 /* CrystalClearTests */,
+				52972B8923798DF600A95BF2 /* CrystalClearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52972B6223798DF300A95BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */,
+				52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */,
+				52972B7123798DF300A95BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52972B7D23798DF600A95BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52972B8823798DF600A95BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52972B6023798DF300A95BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52972B6E23798DF300A95BF2 /* SecondViewController.swift in Sources */,
+				52972B7423798DF300A95BF2 /* CrystalClear.xcdatamodeld in Sources */,
+				52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */,
+				52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */,
+				52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52972B7B23798DF600A95BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52972B8623798DF600A95BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52972B8F23798DF600A95BF2 /* CrystalClearUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52972B8123798DF600A95BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52972B6323798DF300A95BF2 /* CrystalClear */;
+			targetProxy = 52972B8023798DF600A95BF2 /* PBXContainerItemProxy */;
+		};
+		52972B8C23798DF600A95BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52972B6323798DF300A95BF2 /* CrystalClear */;
+			targetProxy = 52972B8B23798DF600A95BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52972B6F23798DF300A95BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52972B7023798DF300A95BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52972B7823798DF600A95BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52972B9123798DF600A95BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52972B9223798DF600A95BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52972B9423798DF600A95BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalClear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = makers.september.2019.cohort.CrystalClear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52972B9523798DF600A95BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalClear/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = makers.september.2019.cohort.CrystalClear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52972B9723798DF600A95BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalClearTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = makers.september.2019.cohort.CrystalClearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrystalClear.app/CrystalClear";
+			};
+			name = Debug;
+		};
+		52972B9823798DF600A95BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalClearTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = makers.september.2019.cohort.CrystalClearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrystalClear.app/CrystalClear";
+			};
+			name = Release;
+		};
+		52972B9A23798DF600A95BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalClearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = makers.september.2019.cohort.CrystalClearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrystalClear;
+			};
+			name = Debug;
+		};
+		52972B9B23798DF600A95BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CrystalClearUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = makers.september.2019.cohort.CrystalClearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrystalClear;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52972B5F23798DF300A95BF2 /* Build configuration list for PBXProject "CrystalClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52972B9123798DF600A95BF2 /* Debug */,
+				52972B9223798DF600A95BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52972B9323798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52972B9423798DF600A95BF2 /* Debug */,
+				52972B9523798DF600A95BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52972B9623798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52972B9723798DF600A95BF2 /* Debug */,
+				52972B9823798DF600A95BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52972B9923798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52972B9A23798DF600A95BF2 /* Debug */,
+				52972B9B23798DF600A95BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52972B7223798DF300A95BF2 /* CrystalClear.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52972B7323798DF300A95BF2 /* CrystalClear.xcdatamodel */,
+			);
+			currentVersion = 52972B7323798DF300A95BF2 /* CrystalClear.xcdatamodel */;
+			path = CrystalClear.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52972B5C23798DF300A95BF2 /* Project object */;
+}
