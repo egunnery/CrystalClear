@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10473DA5237B09E300B736AA /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10473DA4237B09E300B736AA /* ThirdViewController.swift */; };
 		10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF6F192379F43C00C27416 /* CustomTabBar.swift */; };
 		52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6723798DF300A95BF2 /* AppDelegate.swift */; };
 		52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6923798DF300A95BF2 /* SceneDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10473DA4237B09E300B736AA /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B6723798DF300A95BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				52972B6923798DF300A95BF2 /* SceneDelegate.swift */,
 				52972B6B23798DF300A95BF2 /* FirstViewController.swift */,
 				52972B6D23798DF300A95BF2 /* SecondViewController.swift */,
+				10473DA4237B09E300B736AA /* ThirdViewController.swift */,
 				52972B6F23798DF300A95BF2 /* Main.storyboard */,
 				52972B7523798DF600A95BF2 /* Assets.xcassets */,
 				52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */,
@@ -271,6 +274,7 @@
 				52972B6E23798DF300A95BF2 /* SecondViewController.swift in Sources */,
 				52972B7423798DF300A95BF2 /* CrystalClear.xcdatamodeld in Sources */,
 				52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */,
+				10473DA5237B09E300B736AA /* ThirdViewController.swift in Sources */,
 				52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */,
 				10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */,
 				52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */,
