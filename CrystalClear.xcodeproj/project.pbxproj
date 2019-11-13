@@ -18,6 +18,9 @@
 		52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */; };
 		52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8323798DF600A95BF2 /* CrystalClearTests.swift */; };
 		52972B8F23798DF600A95BF2 /* CrystalClearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */; };
+		52972B9E237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */; };
+		52972BA0237C145D00A95BF2 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52972B9F237C145D00A95BF2 /* test.mp3 */; };
+		52972BA4237C3AA000A95BF2 /* bensound-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		52972B8A23798DF600A95BF2 /* CrystalClearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalClearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalClearUITests.swift; sourceTree = "<group>"; };
 		52972B9023798DF600A95BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = "<group>"; };
+		52972B9F237C145D00A95BF2 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-summer.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 				52972B7A23798DF600A95BF2 /* Info.plist */,
 				52972B7223798DF300A95BF2 /* CrystalClear.xcdatamodeld */,
 				10AF6F192379F43C00C27416 /* CustomTabBar.swift */,
+				52972B9C237B083400A95BF2 /* Songs */,
 			);
 			path = CrystalClear;
 			sourceTree = "<group>";
@@ -135,6 +142,17 @@
 				52972B9023798DF600A95BF2 /* Info.plist */,
 			);
 			path = CrystalClearUITests;
+			sourceTree = "<group>";
+		};
+		52972B9C237B083400A95BF2 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */,
+				52972B9F237C145D00A95BF2 /* test.mp3 */,
+				52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */,
+			);
+			name = Songs;
+			path = ../../../../Desktop/Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */,
+				52972BA0237C145D00A95BF2 /* test.mp3 in Resources */,
+				52972B9E237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */,
 				52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */,
 				52972B7123798DF300A95BF2 /* Main.storyboard in Resources */,
+				52972BA4237C3AA000A95BF2 /* bensound-summer.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
