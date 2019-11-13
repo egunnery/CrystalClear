@@ -49,31 +49,6 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--Health-->
-        <scene sceneID="oRq-Ad-ENC">
-            <objects>
-                <viewController id="F1O-QD-S8a" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ih4-PU-5XL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" text="Third View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="HiB-WX-SyO">
-                                <rect key="frame" x="125" y="394" width="164" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="WeK-hW-nFI"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Health" image="suit.heart" catalog="system" id="vAC-9c-3Ab"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yxN-sr-nO3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="749" y="1035"/>
-        </scene>
         <!--Meditation-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -126,7 +101,6 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="F1O-QD-S8a" kind="relationship" relationship="viewControllers" id="XOz-lG-bma"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -137,6 +111,5 @@
     <resources>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="lightbulb" catalog="system" width="56" height="64"/>
-        <image name="suit.heart" catalog="system" width="64" height="54"/>
     </resources>
 </document>
