@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 var songs:[String] = []
-var audioPlayer = AVAudioPlayer()
+var audioPlayer: AVAudioPlayer!
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -30,8 +30,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         do {
-            
-            
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             audioPlayer.play()
