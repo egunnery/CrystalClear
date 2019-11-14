@@ -9,6 +9,9 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    private let card = Card()
+    
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
@@ -16,10 +19,28 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var button5: UIButton!
     @IBOutlet weak var button6: UIButton!
     
+    @IBAction func dayFlip(_ sender: Any) {
+        if card.isDay == false {
+            card.isDay = true
+            let image = UIImage(named: "bazaar")
+                  button.setImage(image, for: .normal)
+                  UIView.transition(with: button, duration: 0.3, options: .transitionFlipFromLeft, animations: nil, completion: nil)
+        }
+    }
+    @IBAction func nightFlip(_ sender: Any) {
+        if card.isDay == true {
+            card.isDay = false
+            let image = UIImage(named: "cat3")
+            button.setImage(image, for: .normal)
+             UIView.transition(with: button, duration: 0.3, options: .transitionFlipFromRight, animations: nil, completion: nil)
+        }
+    }
+    
+    
     @IBAction func showAlertButtonTapped(_ sender: UIButton) {
 
     // create the alert
-    let alert = UIAlertController(title: "Eat Mindfully", message: "Eat mindfully. In our fast-paced world, there can be a tendency to eat while distraced and shovel in more food than we need. Try eating more slowly and taking time to taste food properly. Eat mindfully. In our fast-paced world, there can be a tendency to eat while distraced and shovel in more food than we need. Try eating more slowly and taking time to taste food properly.Eat mindfully. In our fast-paced world, there can be a tendency to eat while distraced and shovel in more food than we need. Try eating more slowly and taking time to taste food properly. Eat mindfully. In our fast-paced world, there can be a tendency to eat while distraced and shovel in more food than we need. Try eating more slowly and taking time to taste food properly", preferredStyle: UIAlertController.Style.alert)
+        let alert = UIAlertController(title: card.whichTitle(), message: card.whichMessage(), preferredStyle: UIAlertController.Style.alert)
 
     // add an action (button)
     alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
@@ -51,6 +72,8 @@ class FirstViewController: UIViewController {
         button6.layer.masksToBounds = true
         
     }
+    
+    
 
 
 }
