@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NMPopUpViewSwift
 
 class FirstViewController: UIViewController {
     
@@ -27,8 +28,7 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
     }
-    
-    
+
 
 }
 
