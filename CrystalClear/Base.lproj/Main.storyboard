@@ -25,8 +25,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teA-Nu-wWj">
                                 <rect key="frame" x="63" y="242" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
-                                <state key="normal" title="Button" image="anise-aroma-art-bazaar-277253"/>
+                                <state key="normal" title="Button" image="bazaar"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="800"/>
@@ -43,7 +42,6 @@
                                 <connections>
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8ZP-UJ-xCE"/>
                                 </connections>
-
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpD-P1-noN">
                                 <rect key="frame" x="105" y="421" width="0.0" height="0.0"/>
@@ -55,39 +53,32 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="413-1f-lJs">
                                 <rect key="frame" x="63" y="421" width="110" height="110"/>
-
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="appetizing-bread-breakfast-close-up-357573"/>
                                 <connections>
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8qd-gs-uZP"/>
                                 </connections>
-
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnr-Ck-Pua">
                                 <rect key="frame" x="63" y="590" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
                                 <state key="normal" title="Button" image="agriculture-basket-beets-bokeh-533360"/>
                                 <connections>
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tKP-65-Sew"/>
                                 </connections>
-
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO0-7B-seY">
                                 <rect key="frame" x="233" y="421" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
                                 <state key="normal" title="Button" image="pexels-photo-842571"/>
                                 <connections>
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="iel-ba-606"/>
                                 </connections>
-
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-Ge-oaV">
                                 <rect key="frame" x="233" y="590" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-
                                 <state key="normal" title="Button" image="clear-glass-bottle-filled-with-broccoli-shake-1346347"/>
-
                                 <connections>
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="gmg-ET-Tpq"/>
                                 </connections>
@@ -123,6 +114,7 @@
                     <connections>
                         <outlet property="Button2" destination="wLw-UZ-W2s" id="mjR-Jf-SXG"/>
                         <outlet property="button" destination="teA-Nu-wWj" id="lkJ-5f-cym"/>
+                        <outlet property="button2" destination="wLw-UZ-W2s" id="0Gu-aB-SsB"/>
                         <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
                         <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
                         <outlet property="button5" destination="rnr-Ck-Pua" id="7w5-nM-FoG"/>
@@ -193,16 +185,13 @@
         </scene>
     </scenes>
     <resources>
-
+        <image name="Moon" width="300" height="300"/>
         <image name="agriculture-basket-beets-bokeh-533360" width="4789" height="3193"/>
-        <image name="anise-aroma-art-bazaar-277253" width="3581" height="4013"/>
         <image name="appetizing-bread-breakfast-close-up-357573" width="3064" height="4596"/>
+        <image name="bazaar" width="3581" height="4013"/>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="clear-glass-bottle-filled-with-broccoli-shake-1346347" width="3558" height="3558"/>
-
-        <image name="Moon" width="300" height="300"/>
         <image name="first" width="30" height="30"/>
-
         <image name="lightbulb" catalog="system" width="56" height="64"/>
         <image name="pexels-photo-255501" width="1000" height="1500"/>
         <image name="pexels-photo-842571" width="938" height="874"/>
