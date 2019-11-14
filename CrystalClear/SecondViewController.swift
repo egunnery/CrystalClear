@@ -11,11 +11,16 @@ import AVFoundation
 
 var songs:[String] = []
 var audioPlayer: AVAudioPlayer!
+var thisSong = 0
+var audioSelected = false
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
 
+    
     @IBOutlet weak var myTableView: UITableView!
+    
+
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,15 +38,13 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             audioPlayer.play()
-            
-        
+            thisSong = indexPath.row
+            audioSelected = true
         }
         catch {
             print ("ERROR");
         }
     }
-    
- 
     
    // let url = URL(fileURLWithPath: "/Users/User/Desktop/Songs")
   //  try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
@@ -74,7 +77,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
         }
     }
-
 
 }
 
