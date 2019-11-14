@@ -26,9 +26,6 @@
                                 <rect key="frame" x="229" y="226" width="114" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8ZP-UJ-xCE"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpD-P1-noN">
                                 <rect key="frame" x="105" y="421" width="0.0" height="0.0"/>
@@ -42,38 +39,26 @@
                                 <rect key="frame" x="63" y="407" width="114" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8qd-gs-uZP"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnr-Ck-Pua">
                                 <rect key="frame" x="63" y="589" width="114" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tKP-65-Sew"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-Ge-oaV">
                                 <rect key="frame" x="229" y="589" width="114" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="gmg-ET-Tpq"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO0-7B-seY">
                                 <rect key="frame" x="229" y="407" width="114" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="iel-ba-606"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teA-Nu-wWj">
                                 <rect key="frame" x="81" y="243" width="96" height="94"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="anise-aroma-art-bazaar-277253"/>
+                                <state key="normal" title="Button" image="bazaar"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="800"/>
@@ -81,6 +66,22 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="KF5-q5-Rmt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZS-s6-HYA">
+                                <rect key="frame" x="120" y="110" width="80" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="first"/>
+                                <connections>
+                                    <action selector="dayFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="wwO-VS-coa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msu-z0-dIZ">
+                                <rect key="frame" x="229" y="122" width="57" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Moon"/>
+                                <connections>
+                                    <action selector="nightFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="REq-VG-IYb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -163,8 +164,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="anise-aroma-art-bazaar-277253" width="3581" height="4013"/>
+        <image name="Moon" width="300" height="300"/>
+        <image name="bazaar" width="3581" height="4013"/>
         <image name="book" catalog="system" width="64" height="50"/>
+        <image name="first" width="30" height="30"/>
         <image name="lightbulb" catalog="system" width="56" height="64"/>
     </resources>
 </document>
