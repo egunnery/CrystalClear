@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import NMPopUpViewSwift
 
 class FirstViewController: UIViewController {
+    @IBOutlet weak var button: UIButton!
     
     @IBAction func showAlertButtonTapped(_ sender: UIButton) {
 

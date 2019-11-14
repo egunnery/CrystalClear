@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0DFC680ED6E490899AF5BCB4 /* Pods_CrystalClearTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A4D4429E49E9F2B9A7DF4A /* Pods_CrystalClearTests.framework */; };
+		104844C5237D9CFA0089EDA2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104844C4237D9CFA0089EDA2 /* RoundButton.swift */; };
 		10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF6F192379F43C00C27416 /* CustomTabBar.swift */; };
 		3F0138B0237C5F91001C9389 /* Pods_CrystalClear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */; };
 		3F0138B1237C5F91001C9389 /* Pods_CrystalClear.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -59,6 +60,7 @@
 		07A4D4429E49E9F2B9A7DF4A /* Pods_CrystalClearTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClearTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E6466C9E65DFBA05E679B4 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; path = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0983B66B0CF1FC5EBB6A4207 /* Pods-CrystalClear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear.release.xcconfig"; path = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear.release.xcconfig"; sourceTree = "<group>"; };
+		104844C4237D9CFA0089EDA2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +159,7 @@
 				52972B7A23798DF600A95BF2 /* Info.plist */,
 				52972B7223798DF300A95BF2 /* CrystalClear.xcdatamodeld */,
 				10AF6F192379F43C00C27416 /* CustomTabBar.swift */,
+				104844C4237D9CFA0089EDA2 /* RoundButton.swift */,
 			);
 			path = CrystalClear;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 			files = (
 				52972B6E23798DF300A95BF2 /* SecondViewController.swift in Sources */,
 				52972B7423798DF300A95BF2 /* CrystalClear.xcdatamodeld in Sources */,
+				104844C5237D9CFA0089EDA2 /* RoundButton.swift in Sources */,
 				52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */,
 				52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */,
 				10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */,
