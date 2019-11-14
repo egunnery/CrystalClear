@@ -43,7 +43,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
 
     }
     
-    }
     // let url = URL(fileURLWithPath: "/Users/User/Desktop/Songs")
   //  try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
 
@@ -77,7 +76,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
         }
     }
+
 }
-
-
 
