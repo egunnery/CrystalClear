@@ -9,31 +9,29 @@
 import UIKit
 import AVFoundation
 
+
 class MusicPlaybackViewController: UIViewController {
     
-    @IBOutlet weak var myImageView: UIImageView!
-    @IBAction func play(_ sender: Any) {
+ //   @IBOutlet weak var myImageView: UIImageView!
+    @IBAction func play(_ sender: UIButton!) {
         if audioSelected == true && audioPlayer.isPlaying == false {
             audioPlayer.play()
         }
     }
-    @IBAction func pause(_ sender: Any) {
-        if audioSelected == true && audioPlayer.isPlaying {
-            audioPlayer.pause()
-        }
-    }
-    @IBAction func prev(_ sender: Any) {
+   
+    
+    @IBAction func prev(_ sender: UIButton!) {
         if thisSong != 0 && audioSelected == true {
             playThis(thisOne: songs[thisSong-1])
             thisSong -= 1
-            label.text = songs[thisSong]
+   //         label.text = songs[thisSong]
         }
     }
-    @IBAction func next(_ sender: Any) {
+    @IBAction func next(_ sender: UIButton!) {
         if thisSong < songs.count-1 && audioSelected == true {
             playThis(thisOne: songs[thisSong+1])
             thisSong += 1
-            label.text = songs[thisSong]
+ //           label.text = songs[thisSong]
         } else {
             audioPlayer.stop()
         }
@@ -61,7 +59,7 @@ class MusicPlaybackViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = songs[thisSong]
+  //      label.text = "test" //songs[thisSong]
         // Do any additional setup after loading the view.
     }
     

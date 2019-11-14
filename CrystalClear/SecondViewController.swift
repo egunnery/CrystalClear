@@ -16,12 +16,7 @@ var audioSelected = false
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-
-    
     @IBOutlet weak var myTableView: UITableView!
-    
-
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return songs.count
@@ -32,6 +27,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.textLabel?.text = songs[indexPath.row]
         return cell
     }
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         do {
@@ -44,9 +40,11 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         catch {
             print ("ERROR");
         }
+
     }
     
-   // let url = URL(fileURLWithPath: "/Users/User/Desktop/Songs")
+    }
+    // let url = URL(fileURLWithPath: "/Users/User/Desktop/Songs")
   //  try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
 
     override func viewDidLoad() {
@@ -55,6 +53,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         gettingSongName()
     }
+    
+    
     func gettingSongName(){
         let folderURL = URL(fileURLWithPath: Bundle.main.resourcePath!)
         do {
@@ -77,6 +77,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
             
         }
     }
-
 }
+
+
 
