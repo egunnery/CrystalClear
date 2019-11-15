@@ -13,6 +13,7 @@
 		3F0138B0237C5F91001C9389 /* Pods_CrystalClear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */; };
 		3F0138B1237C5F91001C9389 /* Pods_CrystalClear.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F87088A237DA22C009A1172 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870889237DA22C009A1172 /* Card.swift */; };
+		52966ECB237EB2FC00CA2A8D /* Songs in Resources */ = {isa = PBXBuildFile; fileRef = 52966ECA237EB2FC00CA2A8D /* Songs */; };
 		52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6723798DF300A95BF2 /* AppDelegate.swift */; };
 		52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6923798DF300A95BF2 /* SceneDelegate.swift */; };
 		52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6B23798DF300A95BF2 /* FirstViewController.swift */; };
@@ -65,6 +66,7 @@
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F870889237DA22C009A1172 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		52966ECA237EB2FC00CA2A8D /* Songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Songs; sourceTree = "<group>"; };
 		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B6723798DF300A95BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52972B6923798DF300A95BF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				52972B6D23798DF300A95BF2 /* SecondViewController.swift */,
 				52972B6F23798DF300A95BF2 /* Main.storyboard */,
 				3F870889237DA22C009A1172 /* Card.swift */,
+				52966ECA237EB2FC00CA2A8D /* Songs */,
 				52972B7523798DF600A95BF2 /* Assets.xcassets */,
 				52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */,
 				52972B7A23798DF600A95BF2 /* Info.plist */,
@@ -311,6 +314,7 @@
 				52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */,
 				52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */,
 				52972B7123798DF300A95BF2 /* Main.storyboard in Resources */,
+				52966ECB237EB2FC00CA2A8D /* Songs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

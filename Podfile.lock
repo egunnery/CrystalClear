@@ -1,0 +1,16 @@
+PODS:
+  - NMPopUpViewSwift (4.2.2)
+
+DEPENDENCIES:
+  - NMPopUpViewSwift
+
+SPEC REPOS:
+  trunk:
+    - NMPopUpViewSwift
+
+SPEC CHECKSUMS:
+  NMPopUpViewSwift: d154e22ff636c46a2278b1b5d64d2413c5692afd
+
+PODFILE CHECKSUM: 38d9d5a849e1f6d5ae1282ceca6e183c51f0cd19
+
+COCOAPODS: 1.8.4

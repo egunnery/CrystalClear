@@ -1,0 +1,6 @@
+framework module Pods_CrystalClear {
+  umbrella header "Pods-CrystalClear-umbrella.h"
+
+  export *
+  module * { export * }
+}
