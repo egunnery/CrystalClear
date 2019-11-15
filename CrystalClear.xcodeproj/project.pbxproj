@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		104844C5237D9CFA0089EDA2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104844C4237D9CFA0089EDA2 /* RoundButton.swift */; };
-
 		526FD52C237D8089004151B3 /* MusicPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526FD52B237D8089004151B3 /* MusicPlaybackViewController.swift */; };
-
+		52966ECE237EBC9200CA2A8D /* Songs in Resources */ = {isa = PBXBuildFile; fileRef = 52966ECD237EBC9200CA2A8D /* Songs */; };
+		52966ED0237EBD2A00CA2A8D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52966ECF237EBD2A00CA2A8D /* Card.swift */; };
+		52966ED2237EBF0800CA2A8D /* SoundOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52966ED1237EBF0800CA2A8D /* SoundOptionsViewController.swift */; };
 		52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6723798DF300A95BF2 /* AppDelegate.swift */; };
 		52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6923798DF300A95BF2 /* SceneDelegate.swift */; };
 		52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6B23798DF300A95BF2 /* FirstViewController.swift */; };
@@ -57,11 +57,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		104844C4237D9CFA0089EDA2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-
 		526FD52B237D8089004151B3 /* MusicPlaybackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlaybackViewController.swift; sourceTree = "<group>"; };
-
+		52966ECD237EBC9200CA2A8D /* Songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Songs; sourceTree = "<group>"; };
+		52966ECF237EBD2A00CA2A8D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../Card.swift; sourceTree = "<group>"; };
+		52966ED1237EBF0800CA2A8D /* SoundOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundOptionsViewController.swift; sourceTree = "<group>"; };
 		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B6723798DF300A95BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52972B6923798DF300A95BF2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +108,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52966ECC237EBC7C00CA2A8D /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		52972B5B23798DF300A95BF2 = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +122,7 @@
 				52972B8223798DF600A95BF2 /* CrystalClearTests */,
 				52972B8D23798DF600A95BF2 /* CrystalClearUITests */,
 				52972B6523798DF300A95BF2 /* Products */,
-				E7E183FC216A46C680D4B4B5 /* Pods */,
+				52966ECC237EBC7C00CA2A8D /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,20 +140,20 @@
 			isa = PBXGroup;
 			children = (
 				52972B6723798DF300A95BF2 /* AppDelegate.swift */,
+				52966ECF237EBD2A00CA2A8D /* Card.swift */,
 				52972B6923798DF300A95BF2 /* SceneDelegate.swift */,
 				52972B6B23798DF300A95BF2 /* FirstViewController.swift */,
 				52972B6D23798DF300A95BF2 /* SecondViewController.swift */,
 				526FD52B237D8089004151B3 /* MusicPlaybackViewController.swift */,
 				52972B6F23798DF300A95BF2 /* Main.storyboard */,
-				3F870889237DA22C009A1172 /* Card.swift */,
+				52966ED1237EBF0800CA2A8D /* SoundOptionsViewController.swift */,
+				52966ECD237EBC9200CA2A8D /* Songs */,
 				52972B7523798DF600A95BF2 /* Assets.xcassets */,
 				52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */,
 				52972B7A23798DF600A95BF2 /* Info.plist */,
 				52972B7223798DF300A95BF2 /* CrystalClear.xcdatamodeld */,
 				10AF6F192379F43C00C27416 /* CustomTabBar.swift */,
-
 				52972B9C237B083400A95BF2 /* Songs */,
-
 			);
 			path = CrystalClear;
 			sourceTree = "<group>";
@@ -169,7 +176,6 @@
 			path = CrystalClearUITests;
 			sourceTree = "<group>";
 		};
-
 		52972B9C237B083400A95BF2 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +185,6 @@
 			);
 			name = Songs;
 			path = ../../../../Desktop/Songs;
-
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +298,7 @@
 				52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */,
 				52972B7123798DF300A95BF2 /* Main.storyboard in Resources */,
 				52972BA4237C3AA000A95BF2 /* bensound-summer.mp3 in Resources */,
+				52966ECE237EBC9200CA2A8D /* Songs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,13 +325,12 @@
 			files = (
 				52972B6E23798DF300A95BF2 /* SecondViewController.swift in Sources */,
 				52972B7423798DF300A95BF2 /* CrystalClear.xcdatamodeld in Sources */,
-				104844C5237D9CFA0089EDA2 /* RoundButton.swift in Sources */,
+				52966ED0237EBD2A00CA2A8D /* Card.swift in Sources */,
 				52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */,
 				526FD52C237D8089004151B3 /* MusicPlaybackViewController.swift in Sources */,
 				52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */,
-				10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */,
+				52966ED2237EBF0800CA2A8D /* SoundOptionsViewController.swift in Sources */,
 				52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */,
-				3F87088A237DA22C009A1172 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
