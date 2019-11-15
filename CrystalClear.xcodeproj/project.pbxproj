@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		104844C5237D9CFA0089EDA2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104844C4237D9CFA0089EDA2 /* RoundButton.swift */; };
+		104844CC237EFBC60089EDA2 /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104844CB237EFBC60089EDA2 /* CardTests.swift */; };
 		10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF6F192379F43C00C27416 /* CustomTabBar.swift */; };
-		3F0138B1237C5F91001C9389 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F0138B1237C5F91001C9389 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F87088A237DA22C009A1172 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870889237DA22C009A1172 /* Card.swift */; };
 		52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6723798DF300A95BF2 /* AppDelegate.swift */; };
 		52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6923798DF300A95BF2 /* SceneDelegate.swift */; };
@@ -47,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3F0138B1237C5F91001C9389 /* BuildFile in Embed Frameworks */,
+				3F0138B1237C5F91001C9389 /* (null) in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,6 +57,7 @@
 
 /* Begin PBXFileReference section */
 		104844C4237D9CFA0089EDA2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		104844CB237EFBC60089EDA2 /* CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		3F870889237DA22C009A1172 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +148,7 @@
 			children = (
 				52972B8323798DF600A95BF2 /* CrystalClearTests.swift */,
 				52972B8523798DF600A95BF2 /* Info.plist */,
+				104844CB237EFBC60089EDA2 /* CardTests.swift */,
 			);
 			path = CrystalClearTests;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */,
+				104844CC237EFBC60089EDA2 /* CardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
