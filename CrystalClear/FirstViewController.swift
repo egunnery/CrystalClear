@@ -83,23 +83,23 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        button.layer.cornerRadius = 10.0
-        button.layer.masksToBounds = true
-        
-        button2.layer.cornerRadius = 10.0
-        button2.layer.masksToBounds = true
-        
-        button3.layer.cornerRadius = 10.0
-        button3.layer.masksToBounds = true
-        
-        button4.layer.cornerRadius = 10.0
-        button4.layer.masksToBounds = true
-        
-        button5.layer.cornerRadius = 10.0
-        button5.layer.masksToBounds = true
-        
-        button6.layer.cornerRadius = 10.0
-        button6.layer.masksToBounds = true
+//        button.layer.cornerRadius = 10.0
+//        button.layer.masksToBounds = true
+//        
+//        button2.layer.cornerRadius = 10.0
+//        button2.layer.masksToBounds = true
+//        
+//        button3.layer.cornerRadius = 10.0
+//        button3.layer.masksToBounds = true
+//        
+//        button4.layer.cornerRadius = 10.0
+//        button4.layer.masksToBounds = true
+//        
+//        button5.layer.cornerRadius = 10.0
+//        button5.layer.masksToBounds = true
+//        
+//        button6.layer.cornerRadius = 10.0
+//        button6.layer.masksToBounds = true
         
     }
     
@@ -107,4 +107,3 @@ class FirstViewController: UIViewController {
 
 
 }
-
