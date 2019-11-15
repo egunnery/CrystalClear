@@ -25,7 +25,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teA-Nu-wWj">
                                 <rect key="frame" x="63" y="242" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+<<<<<<< HEAD
                                 <state key="normal" title="Button" image="anise-aroma-art-bazaar-277253"/>
+=======
+                                <state key="normal" title="Button" image="bazaar"/>
+>>>>>>> 4aec71e6cdf1f2bfcef974335a72a3fbda8552bd
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="800"/>
@@ -114,6 +118,7 @@
                     <connections>
                         <outlet property="Button2" destination="wLw-UZ-W2s" id="mjR-Jf-SXG"/>
                         <outlet property="button" destination="teA-Nu-wWj" id="lkJ-5f-cym"/>
+                        <outlet property="button2" destination="wLw-UZ-W2s" id="0Gu-aB-SsB"/>
                         <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
                         <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
                         <outlet property="button5" destination="rnr-Ck-Pua" id="7w5-nM-FoG"/>
@@ -202,8 +207,8 @@
     <resources>
         <image name="Moon" width="300" height="300"/>
         <image name="agriculture-basket-beets-bokeh-533360" width="4789" height="3193"/>
-        <image name="anise-aroma-art-bazaar-277253" width="3581" height="4013"/>
         <image name="appetizing-bread-breakfast-close-up-357573" width="3064" height="4596"/>
+        <image name="bazaar" width="3581" height="4013"/>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="clear-glass-bottle-filled-with-broccoli-shake-1346347" width="3558" height="3558"/>
         <image name="first" width="30" height="30"/>
