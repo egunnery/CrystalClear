@@ -21,9 +21,9 @@
 		52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */; };
 		52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8323798DF600A95BF2 /* CrystalClearTests.swift */; };
 		52972B8F23798DF600A95BF2 /* CrystalClearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */; };
-		52972B9E237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */; };
-		52972BA0237C145D00A95BF2 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52972B9F237C145D00A95BF2 /* test.mp3 */; };
-		52972BA4237C3AA000A95BF2 /* bensound-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */; };
+		52AA415A237F07CA00883923 /* bensound-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AA4159237F07CA00883923 /* bensound-summer.mp3 */; };
+		52AA415D237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AA415B237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */; };
+		52AA415E237F087700883923 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AA415C237F087700883923 /* test.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +81,9 @@
 		52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = "<group>"; };
 		52972B9F237C145D00A95BF2 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 		52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-summer.mp3"; sourceTree = "<group>"; };
+		52AA4159237F07CA00883923 /* bensound-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-summer.mp3"; path = "CrystalClear/Songs/bensound-summer.mp3"; sourceTree = "<group>"; };
+		52AA415B237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; path = "CrystalClear/Songs/ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = "<group>"; };
+		52AA415C237F087700883923 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = test.mp3; path = CrystalClear/Songs/test.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,9 @@
 		52972B5B23798DF300A95BF2 = {
 			isa = PBXGroup;
 			children = (
+				52AA415B237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */,
+				52AA415C237F087700883923 /* test.mp3 */,
+				52AA4159237F07CA00883923 /* bensound-summer.mp3 */,
 				52972B6623798DF300A95BF2 /* CrystalClear */,
 				52972B8223798DF600A95BF2 /* CrystalClearTests */,
 				52972B8D23798DF600A95BF2 /* CrystalClearUITests */,
@@ -292,12 +298,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52AA415D237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */,
+				52AA415E237F087700883923 /* test.mp3 in Resources */,
+				52AA415A237F07CA00883923 /* bensound-summer.mp3 in Resources */,
 				52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */,
-				52972BA0237C145D00A95BF2 /* test.mp3 in Resources */,
-				52972B9E237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */,
 				52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */,
 				52972B7123798DF300A95BF2 /* Main.storyboard in Resources */,
-				52972BA4237C3AA000A95BF2 /* bensound-summer.mp3 in Resources */,
 				52966ECE237EBC9200CA2A8D /* Songs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
