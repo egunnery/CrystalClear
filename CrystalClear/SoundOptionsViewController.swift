@@ -19,14 +19,14 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
     @IBOutlet weak var myTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print (songs)
+     //   print (songs)
         return songs.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         cell.textLabel?.text = songs[indexPath.row]
-        print(songs[indexPath.row])
+  //      print(songs[indexPath.row])
         return cell
     }
     
@@ -38,8 +38,8 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             audioPlayer.play()
             thisSong = indexPath.row
-
             audioSelected = true
+
         }
         catch {
             print ("ERROR");
@@ -47,15 +47,13 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
 
     }
     
-    // let url = URL(fileURLWithPath: "/Users/User/Desktop/Songs")
-  //  try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         gettingSongName()
-        tableView.reloadData()
+        
     }
     
     

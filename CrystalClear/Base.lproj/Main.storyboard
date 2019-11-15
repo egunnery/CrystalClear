@@ -225,7 +225,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1L-XY-ZrL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="y5b-XF-ca2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3839" y="795"/>
+            <point key="canvasLocation" x="3667" y="360"/>
         </scene>
         <!--Health-->
         <scene sceneID="oRq-Ad-ENC">
@@ -264,7 +264,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="FJf-Ye-OLo" kind="presentation" modalPresentationStyle="fullScreen" id="vlW-oP-pCI"/>
+                                    <segue destination="FJf-Ye-OLo" kind="show" identifier="segue" animates="NO" id="vlW-oP-pCI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -301,10 +301,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Sound Options View Controller-->
+        <!--Title-->
         <scene sceneID="SVo-Dm-HBR">
             <objects>
-                <viewController id="FJf-Ye-OLo" customClass="SoundOptionsViewController" customModule="CrystalClear" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="FJf-Ye-OLo" customClass="SoundOptionsViewController" customModule="CrystalClear" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Nqi-zW-RdW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,7 +314,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="afF-yY-4EY">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="afF-yY-4EY">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="afF-yY-4EY" id="8x2-XR-F56">
@@ -328,7 +328,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="xLG-aN-58p"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8uC-Fh-i0t"/>
+                    <navigationItem key="navigationItem" title="Title" id="jC6-3K-PTw"/>
                     <connections>
                         <outlet property="myTableView" destination="fzT-C4-jaA" id="G03-ta-eJU"/>
                     </connections>
