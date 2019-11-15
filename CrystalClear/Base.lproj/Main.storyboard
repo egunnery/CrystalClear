@@ -15,33 +15,123 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="131.5" y="426.5" width="151" height="43"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
                                 <rect key="frame" x="110" y="477.5" width="194.5" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teA-Nu-wWj">
+                                <rect key="frame" x="63" y="242" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+
+                                <state key="normal" title="Button" image="anise-aroma-art-bazaar-277253"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="800"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="KF5-q5-Rmt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLw-UZ-W2s">
+                                <rect key="frame" x="233" y="242" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pexels-photo-255501"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8ZP-UJ-xCE"/>
+                                </connections>
+
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpD-P1-noN">
+                                <rect key="frame" x="105" y="421" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tdW-VO-JBO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="413-1f-lJs">
+                                <rect key="frame" x="63" y="421" width="110" height="110"/>
+
+                                <state key="normal" title="Button" image="appetizing-bread-breakfast-close-up-357573"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8qd-gs-uZP"/>
+                                </connections>
+
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rnr-Ck-Pua">
+                                <rect key="frame" x="63" y="590" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+
+                                <state key="normal" title="Button" image="agriculture-basket-beets-bokeh-533360"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tKP-65-Sew"/>
+                                </connections>
+
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO0-7B-seY">
+                                <rect key="frame" x="233" y="421" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+
+                                <state key="normal" title="Button" image="pexels-photo-842571"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="iel-ba-606"/>
+                                </connections>
+
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-Ge-oaV">
+                                <rect key="frame" x="233" y="590" width="110" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+
+                                <state key="normal" title="Button" image="clear-glass-bottle-filled-with-broccoli-shake-1346347"/>
+
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="gmg-ET-Tpq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZS-s6-HYA">
+                                <rect key="frame" x="120" y="110" width="80" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="first"/>
+                                <connections>
+                                    <action selector="dayFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="wwO-VS-coa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msu-z0-dIZ">
+                                <rect key="frame" x="229" y="122" width="57" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Moon"/>
+                                <connections>
+                                    <action selector="nightFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="REq-VG-IYb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lifestyle Tips" image="book" catalog="system" id="acW-dT-cKf">
-                        <color key="badgeColor" red="0.55125669675363231" green="1" blue="0.7604598049011887" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="badgeColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBarItem>
+                    <connections>
+                        <outlet property="Button2" destination="wLw-UZ-W2s" id="mjR-Jf-SXG"/>
+                        <outlet property="button" destination="teA-Nu-wWj" id="lkJ-5f-cym"/>
+                        <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
+                        <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
+                        <outlet property="button5" destination="rnr-Ck-Pua" id="7w5-nM-FoG"/>
+                        <outlet property="button6" destination="Bdh-Ge-oaV" id="N6Q-2o-B0g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
+
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
         <!--Music Playback View Controller-->
@@ -162,6 +252,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yxN-sr-nO3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749" y="1035"/>
+
         </scene>
         <!--Meditation-->
         <scene sceneID="wg7-f3-ORb">
@@ -234,11 +325,15 @@
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="F1O-QD-S8a" kind="relationship" relationship="viewControllers" id="XOz-lG-bma"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -247,8 +342,18 @@
         </scene>
     </scenes>
     <resources>
+
+        <image name="agriculture-basket-beets-bokeh-533360" width="4789" height="3193"/>
+        <image name="anise-aroma-art-bazaar-277253" width="3581" height="4013"/>
+        <image name="appetizing-bread-breakfast-close-up-357573" width="3064" height="4596"/>
         <image name="book" catalog="system" width="64" height="50"/>
+        <image name="clear-glass-bottle-filled-with-broccoli-shake-1346347" width="3558" height="3558"/>
+
+        <image name="Moon" width="300" height="300"/>
+        <image name="first" width="30" height="30"/>
+
         <image name="lightbulb" catalog="system" width="56" height="64"/>
-        <image name="suit.heart" catalog="system" width="64" height="54"/>
+        <image name="pexels-photo-255501" width="1000" height="1500"/>
+        <image name="pexels-photo-842571" width="938" height="874"/>
     </resources>
 </document>
