@@ -1,0 +1,1100 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B42BE840B45CE5B51B0C4A3222D2C8 /* Pods-CrystalClearTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 854D2E5127F34B4B7B9119471C7C3089 /* Pods-CrystalClearTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0681C75211AE114B021EBA0A1AD0D1F7 /* PopUpViewController_iPhone6Plus.xib in Resources */ = {isa = PBXBuildFile; fileRef = C622BB567A4D4DAA28D05ACE5E823046 /* PopUpViewController_iPhone6Plus.xib */; };
+		1707B3BD76E55CD92A60B2E6EB1BDCED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B1F94A8BDBC0CF51AC37873973B5BE3 /* PopUpViewController_iPhone6Plus.xib in Sources */ = {isa = PBXBuildFile; fileRef = C622BB567A4D4DAA28D05ACE5E823046 /* PopUpViewController_iPhone6Plus.xib */; };
+		2BE5B53B99B1AF5201195C8D6185387C /* PopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88F645FB3DB4D57167CF26C25446D80A /* PopUpViewController.xib */; };
+		2F1F22B4397F64B10996FA4DAE88C260 /* PopUpViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A98EC62444CAFB2931E6A591639DDF /* PopUpViewController_iPad.xib */; };
+		2FA6341E5F68BE4A06C1FC7E6B48F9DA /* NMPopUpViewSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05938846858E580728380E69F3DF3161 /* NMPopUpViewSwift-dummy.m */; };
+		45C92F631D3BD6A1FD11DA6E83C39A57 /* Pods-CrystalClear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA69DC43F3FC8A8CAB80D854CA5628E3 /* Pods-CrystalClear-dummy.m */; };
+		4DCE7CD210C6A4D75CD8BE66F398AF5A /* PopUpViewController_iPhone6.xib in Sources */ = {isa = PBXBuildFile; fileRef = ACD01ECE075DAEFC3BE4F2A94B7838B2 /* PopUpViewController_iPhone6.xib */; };
+		4F18F133F365837062B08A2959599B52 /* Pods-CrystalClear-CrystalClearUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B602FEE2F6A555BC0E5BED012CE6352 /* Pods-CrystalClear-CrystalClearUITests-dummy.m */; };
+		558C6391824B26E938EC76A6A437A113 /* PopUpViewController_iPad.xib in Sources */ = {isa = PBXBuildFile; fileRef = 69A98EC62444CAFB2931E6A591639DDF /* PopUpViewController_iPad.xib */; };
+		6C23C6ED41BB29A67C1276BC7D5C4EDA /* PopUpViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 88F645FB3DB4D57167CF26C25446D80A /* PopUpViewController.xib */; };
+		A0BA108C54B33A3D3F6E449B30807136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A534717AFC8CF44CBBEF011D7D3900C1 /* Pods-CrystalClearTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B92C92403D5C94C8B881AE0943569D /* Pods-CrystalClearTests-dummy.m */; };
+		A8AD4A50942FD865D9DE2F749FEB0E7E /* Pods-CrystalClear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F21790CE89E819AFFB51AEB2EB3597 /* Pods-CrystalClear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C772E9BEDC1ADA88A9122B0B8ACB05D9 /* PopUpViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02627C6A0F4715E8A5439FB9ADE21550 /* PopUpViewControllerSwift.swift */; };
+		D5049F12D6DC17B736A08FA64AA91762 /* NMPopUpViewSwift.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8AB8B06C6AF3E1ABC1C1A5ED885C355E /* NMPopUpViewSwift.bundle */; };
+		D7131553AAB8AF688AD7F9E0C5C322CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D7946D06790102A6937DD1598FFCCC10 /* Pods-CrystalClear-CrystalClearUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670C159998339753902ADF2BE1369DBA /* Pods-CrystalClear-CrystalClearUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBC445AC795E6A3D282656E328CA248C /* PopUpViewController_iPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACD01ECE075DAEFC3BE4F2A94B7838B2 /* PopUpViewController_iPhone6.xib */; };
+		F2B573C591318C254934605D5724D820 /* NMPopUpViewSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60FB761058511B543B2B8AA0424401D1 /* NMPopUpViewSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB59A9FBE03D7BFBBBC7931A5EF67688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EF0E7BCDA64825C805E2BF77BC57E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12735661BD9BE52E9B677FD33B40EAD0;
+			remoteInfo = NMPopUpViewSwift;
+		};
+		742D6C622873F0AA2699965E4EC2FBF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 091D7B423401C8424E5297583177033B;
+			remoteInfo = "Pods-CrystalClear";
+		};
+		796FD9BACCE2D090DDB464F685DDF62F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12735661BD9BE52E9B677FD33B40EAD0;
+			remoteInfo = NMPopUpViewSwift;
+		};
+		AF68422CC60A72AF7FA7D7D962F1B06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30FBE2CC875AB688EFCBD5850C484D3;
+			remoteInfo = "NMPopUpViewSwift-NMPopUpViewSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02627C6A0F4715E8A5439FB9ADE21550 /* PopUpViewControllerSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopUpViewControllerSwift.swift; path = NMPopUpView/Pod/Classes/PopUpViewControllerSwift.swift; sourceTree = "<group>"; };
+		05938846858E580728380E69F3DF3161 /* NMPopUpViewSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMPopUpViewSwift-dummy.m"; sourceTree = "<group>"; };
+		059C736257D9FE08D8A82D8DB92B12B6 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09818087E9021936D4625B26365D6BA7 /* NMPopUpViewSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMPopUpViewSwift.xcconfig; sourceTree = "<group>"; };
+		1C91538458C803E04FC3A622A03C683E /* Pods_CrystalClear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrystalClear.framework; path = "Pods-CrystalClear.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE0D7D559D722E9D5F357302CDD7924 /* NMPopUpViewSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NMPopUpViewSwift.framework; path = NMPopUpViewSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FC6E7452802D1039318B1D2B8D9FCE /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrystalClear-CrystalClearUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CC8B457B295FED50E39C06EF601317F /* Pods-CrystalClearTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrystalClearTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		348F2B286C50D0C66C69F3B17B36E32D /* Pods_CrystalClearTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrystalClearTests.framework; path = "Pods-CrystalClearTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3595A96052CC0E4DE80D8C4847A2EFA6 /* NMPopUpViewSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NMPopUpViewSwift-Info.plist"; sourceTree = "<group>"; };
+		38B3FE90B4458E7170D6E2AFAABC06A6 /* Pods-CrystalClear-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrystalClear-acknowledgements.plist"; sourceTree = "<group>"; };
+		392BEF543928D6C85318ADD0DA76285C /* Pods-CrystalClear-CrystalClearUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrystalClear-CrystalClearUITests-Info.plist"; sourceTree = "<group>"; };
+		3961D589041CDC5712F98529622A5F93 /* Pods-CrystalClear-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrystalClear-frameworks.sh"; sourceTree = "<group>"; };
+		46E9F3E5BB167403FD28964317FD4F3B /* Pods-CrystalClear-CrystalClearUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CrystalClear-CrystalClearUITests-frameworks.sh"; sourceTree = "<group>"; };
+		49B92C92403D5C94C8B881AE0943569D /* Pods-CrystalClearTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrystalClearTests-dummy.m"; sourceTree = "<group>"; };
+		4C30A8D9BAAD0B0311F69B5BF8911907 /* Pods-CrystalClear-CrystalClearUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrystalClear-CrystalClearUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B602FEE2F6A555BC0E5BED012CE6352 /* Pods-CrystalClear-CrystalClearUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrystalClear-CrystalClearUITests-dummy.m"; sourceTree = "<group>"; };
+		60FB761058511B543B2B8AA0424401D1 /* NMPopUpViewSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMPopUpViewSwift-umbrella.h"; sourceTree = "<group>"; };
+		61E2059207C11DF09EA831BF649B0B12 /* Pods-CrystalClear-CrystalClearUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrystalClear-CrystalClearUITests.modulemap"; sourceTree = "<group>"; };
+		62452041170611EB9480885323CE453B /* Pods-CrystalClear-CrystalClearUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrystalClear-CrystalClearUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63F21790CE89E819AFFB51AEB2EB3597 /* Pods-CrystalClear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrystalClear-umbrella.h"; sourceTree = "<group>"; };
+		670C159998339753902ADF2BE1369DBA /* Pods-CrystalClear-CrystalClearUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrystalClear-CrystalClearUITests-umbrella.h"; sourceTree = "<group>"; };
+		69A98EC62444CAFB2931E6A591639DDF /* PopUpViewController_iPad.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PopUpViewController_iPad.xib; path = NMPopUpView/Pod/Classes/PopUpViewController_iPad.xib; sourceTree = "<group>"; };
+		79AFA1B7CA012381748BB5FE51229508 /* Pods-CrystalClearTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrystalClearTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F301A46C79693631E93F9BC5BEAE977 /* Pods-CrystalClearTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrystalClearTests-Info.plist"; sourceTree = "<group>"; };
+		854D2E5127F34B4B7B9119471C7C3089 /* Pods-CrystalClearTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CrystalClearTests-umbrella.h"; sourceTree = "<group>"; };
+		88F645FB3DB4D57167CF26C25446D80A /* PopUpViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PopUpViewController.xib; path = NMPopUpView/Pod/Classes/PopUpViewController.xib; sourceTree = "<group>"; };
+		8AB8B06C6AF3E1ABC1C1A5ED885C355E /* NMPopUpViewSwift.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NMPopUpViewSwift.bundle; path = "NMPopUpViewSwift-NMPopUpViewSwift.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90384A19EB468B39C073334925D18289 /* Pods-CrystalClear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrystalClear.modulemap"; sourceTree = "<group>"; };
+		917DEE4D9AFC6DCFC9871F41B473DB2B /* Pods-CrystalClearTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrystalClearTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACD01ECE075DAEFC3BE4F2A94B7838B2 /* PopUpViewController_iPhone6.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PopUpViewController_iPhone6.xib; path = NMPopUpView/Pod/Classes/PopUpViewController_iPhone6.xib; sourceTree = "<group>"; };
+		AF135CEDE2B5EFC251648D2FF373AA18 /* Pods_CrystalClear_CrystalClearUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CrystalClear_CrystalClearUITests.framework; path = "Pods-CrystalClear-CrystalClearUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BE663DD71409FF295175D24EF1D67E /* Pods-CrystalClearTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CrystalClearTests.modulemap"; sourceTree = "<group>"; };
+		B1EA249C011536363C8D32D8F423BC21 /* Pods-CrystalClearTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrystalClearTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F373551605A31E7FBBDBA8BA5BB279 /* Pods-CrystalClear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CrystalClear-Info.plist"; sourceTree = "<group>"; };
+		BA6F3FF8CBE5C2C0573AEFD68DF2B6A3 /* Pods-CrystalClear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrystalClear.debug.xcconfig"; sourceTree = "<group>"; };
+		C2FEB55FA9E7E22677123527124161F5 /* Pods-CrystalClear-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CrystalClear-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4A9D2CDE9B2D1C6DF208CC2739C6580 /* Pods-CrystalClear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CrystalClear.release.xcconfig"; sourceTree = "<group>"; };
+		C57ABE16E50ABBF03328E2095E9E2DD0 /* NMPopUpViewSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMPopUpViewSwift.modulemap; sourceTree = "<group>"; };
+		C622BB567A4D4DAA28D05ACE5E823046 /* PopUpViewController_iPhone6Plus.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PopUpViewController_iPhone6Plus.xib; path = NMPopUpView/Pod/Classes/PopUpViewController_iPhone6Plus.xib; sourceTree = "<group>"; };
+		CA69DC43F3FC8A8CAB80D854CA5628E3 /* Pods-CrystalClear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CrystalClear-dummy.m"; sourceTree = "<group>"; };
+		EF4E3482BB5FFFD25AFB42DE4CC4E5E6 /* ResourceBundle-NMPopUpViewSwift-NMPopUpViewSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NMPopUpViewSwift-NMPopUpViewSwift-Info.plist"; sourceTree = "<group>"; };
+		FAC9E05BF3907CC883A7985A7E818CC7 /* NMPopUpViewSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMPopUpViewSwift-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C1303B83DE519A0D74EBF13F050807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1707B3BD76E55CD92A60B2E6EB1BDCED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D324F85B55C7102D0247E06E642284F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BA108C54B33A3D3F6E449B30807136 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3902CFDD2A6305625F92704812339FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7131553AAB8AF688AD7F9E0C5C322CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75312C2AACC862F8D2DA944C3DD7AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB59A9FBE03D7BFBBBC7931A5EF67688 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45A201B54308356FCE73E1D4BBF8534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5FE072FE49B8870643A078A14E221 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D57E9FB8D085DF785FF121A2207B6CB /* Pods-CrystalClear */,
+				DC7B5DFD71C77CB7310E26ADA9A62C7D /* Pods-CrystalClear-CrystalClearUITests */,
+				E9A11E6520323AC438CE24D437816BCD /* Pods-CrystalClearTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2DEB1C175B272D79FF6C5F7E43416FBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57ABE16E50ABBF03328E2095E9E2DD0 /* NMPopUpViewSwift.modulemap */,
+				09818087E9021936D4625B26365D6BA7 /* NMPopUpViewSwift.xcconfig */,
+				05938846858E580728380E69F3DF3161 /* NMPopUpViewSwift-dummy.m */,
+				3595A96052CC0E4DE80D8C4847A2EFA6 /* NMPopUpViewSwift-Info.plist */,
+				FAC9E05BF3907CC883A7985A7E818CC7 /* NMPopUpViewSwift-prefix.pch */,
+				60FB761058511B543B2B8AA0424401D1 /* NMPopUpViewSwift-umbrella.h */,
+				EF4E3482BB5FFFD25AFB42DE4CC4E5E6 /* ResourceBundle-NMPopUpViewSwift-NMPopUpViewSwift-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMPopUpViewSwift";
+			sourceTree = "<group>";
+		};
+		3FEE5B09A580B983FA25450A8E2D875F /* NMPopUpViewSwift */ = {
+			isa = PBXGroup;
+			children = (
+				88F645FB3DB4D57167CF26C25446D80A /* PopUpViewController.xib */,
+				69A98EC62444CAFB2931E6A591639DDF /* PopUpViewController_iPad.xib */,
+				ACD01ECE075DAEFC3BE4F2A94B7838B2 /* PopUpViewController_iPhone6.xib */,
+				C622BB567A4D4DAA28D05ACE5E823046 /* PopUpViewController_iPhone6Plus.xib */,
+				02627C6A0F4715E8A5439FB9ADE21550 /* PopUpViewControllerSwift.swift */,
+				674FCF6E5F0EF7FE2C968A37CB28A6D8 /* Resources */,
+				2DEB1C175B272D79FF6C5F7E43416FBA /* Support Files */,
+			);
+			name = NMPopUpViewSwift;
+			path = NMPopUpViewSwift;
+			sourceTree = "<group>";
+		};
+		4D57E9FB8D085DF785FF121A2207B6CB /* Pods-CrystalClear */ = {
+			isa = PBXGroup;
+			children = (
+				90384A19EB468B39C073334925D18289 /* Pods-CrystalClear.modulemap */,
+				C2FEB55FA9E7E22677123527124161F5 /* Pods-CrystalClear-acknowledgements.markdown */,
+				38B3FE90B4458E7170D6E2AFAABC06A6 /* Pods-CrystalClear-acknowledgements.plist */,
+				CA69DC43F3FC8A8CAB80D854CA5628E3 /* Pods-CrystalClear-dummy.m */,
+				3961D589041CDC5712F98529622A5F93 /* Pods-CrystalClear-frameworks.sh */,
+				B2F373551605A31E7FBBDBA8BA5BB279 /* Pods-CrystalClear-Info.plist */,
+				63F21790CE89E819AFFB51AEB2EB3597 /* Pods-CrystalClear-umbrella.h */,
+				BA6F3FF8CBE5C2C0573AEFD68DF2B6A3 /* Pods-CrystalClear.debug.xcconfig */,
+				C4A9D2CDE9B2D1C6DF208CC2739C6580 /* Pods-CrystalClear.release.xcconfig */,
+			);
+			name = "Pods-CrystalClear";
+			path = "Target Support Files/Pods-CrystalClear";
+			sourceTree = "<group>";
+		};
+		57F8D052DD0507EAD764E949654B3445 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FEE5B09A580B983FA25450A8E2D875F /* NMPopUpViewSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		674FCF6E5F0EF7FE2C968A37CB28A6D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		86BA4FADA21D923F21EA2431F67F0016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AB8B06C6AF3E1ABC1C1A5ED885C355E /* NMPopUpViewSwift.bundle */,
+				1FE0D7D559D722E9D5F357302CDD7924 /* NMPopUpViewSwift.framework */,
+				1C91538458C803E04FC3A622A03C683E /* Pods_CrystalClear.framework */,
+				AF135CEDE2B5EFC251648D2FF373AA18 /* Pods_CrystalClear_CrystalClearUITests.framework */,
+				348F2B286C50D0C66C69F3B17B36E32D /* Pods_CrystalClearTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				57F8D052DD0507EAD764E949654B3445 /* Pods */,
+				86BA4FADA21D923F21EA2431F67F0016 /* Products */,
+				17B5FE072FE49B8870643A078A14E221 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC7B5DFD71C77CB7310E26ADA9A62C7D /* Pods-CrystalClear-CrystalClearUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61E2059207C11DF09EA831BF649B0B12 /* Pods-CrystalClear-CrystalClearUITests.modulemap */,
+				62452041170611EB9480885323CE453B /* Pods-CrystalClear-CrystalClearUITests-acknowledgements.markdown */,
+				4C30A8D9BAAD0B0311F69B5BF8911907 /* Pods-CrystalClear-CrystalClearUITests-acknowledgements.plist */,
+				5B602FEE2F6A555BC0E5BED012CE6352 /* Pods-CrystalClear-CrystalClearUITests-dummy.m */,
+				46E9F3E5BB167403FD28964317FD4F3B /* Pods-CrystalClear-CrystalClearUITests-frameworks.sh */,
+				392BEF543928D6C85318ADD0DA76285C /* Pods-CrystalClear-CrystalClearUITests-Info.plist */,
+				670C159998339753902ADF2BE1369DBA /* Pods-CrystalClear-CrystalClearUITests-umbrella.h */,
+				23FC6E7452802D1039318B1D2B8D9FCE /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */,
+				059C736257D9FE08D8A82D8DB92B12B6 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */,
+			);
+			name = "Pods-CrystalClear-CrystalClearUITests";
+			path = "Target Support Files/Pods-CrystalClear-CrystalClearUITests";
+			sourceTree = "<group>";
+		};
+		E9A11E6520323AC438CE24D437816BCD /* Pods-CrystalClearTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BE663DD71409FF295175D24EF1D67E /* Pods-CrystalClearTests.modulemap */,
+				79AFA1B7CA012381748BB5FE51229508 /* Pods-CrystalClearTests-acknowledgements.markdown */,
+				2CC8B457B295FED50E39C06EF601317F /* Pods-CrystalClearTests-acknowledgements.plist */,
+				49B92C92403D5C94C8B881AE0943569D /* Pods-CrystalClearTests-dummy.m */,
+				7F301A46C79693631E93F9BC5BEAE977 /* Pods-CrystalClearTests-Info.plist */,
+				854D2E5127F34B4B7B9119471C7C3089 /* Pods-CrystalClearTests-umbrella.h */,
+				B1EA249C011536363C8D32D8F423BC21 /* Pods-CrystalClearTests.debug.xcconfig */,
+				917DEE4D9AFC6DCFC9871F41B473DB2B /* Pods-CrystalClearTests.release.xcconfig */,
+			);
+			name = "Pods-CrystalClearTests";
+			path = "Target Support Files/Pods-CrystalClearTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0565C63DE9DE8E843DF0EBCF54864BB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7946D06790102A6937DD1598FFCCC10 /* Pods-CrystalClear-CrystalClearUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AFC59EF25B2BD20555E0233B4D4AE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B573C591318C254934605D5724D820 /* NMPopUpViewSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B13B041BDA858AFCA6248313BE1283 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8AD4A50942FD865D9DE2F749FEB0E7E /* Pods-CrystalClear-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91C117F011B561D0D6F2342175FACCF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B42BE840B45CE5B51B0C4A3222D2C8 /* Pods-CrystalClearTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		091D7B423401C8424E5297583177033B /* Pods-CrystalClear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D3C5E85B0068AE182A722898E1F23C /* Build configuration list for PBXNativeTarget "Pods-CrystalClear" */;
+			buildPhases = (
+				34B13B041BDA858AFCA6248313BE1283 /* Headers */,
+				52BF3D6ABE35FE15381297CCA7A590C9 /* Sources */,
+				E75312C2AACC862F8D2DA944C3DD7AD9 /* Frameworks */,
+				F5E625A3140CD9FD02A1E38AD82EA468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293C7AB1A5D3222D64ABF524567B295D /* PBXTargetDependency */,
+			);
+			name = "Pods-CrystalClear";
+			productName = "Pods-CrystalClear";
+			productReference = 1C91538458C803E04FC3A622A03C683E /* Pods_CrystalClear.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		12735661BD9BE52E9B677FD33B40EAD0 /* NMPopUpViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B329936F91B2302BB8E734ED660CA0 /* Build configuration list for PBXNativeTarget "NMPopUpViewSwift" */;
+			buildPhases = (
+				32AFC59EF25B2BD20555E0233B4D4AE2 /* Headers */,
+				ADAA431C274A4162117512AD9437FE13 /* Sources */,
+				E3902CFDD2A6305625F92704812339FF /* Frameworks */,
+				E89442EAA57FC8EF4DE80FC1726BB921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90357F2DB6D4179A89DC2F7F6D856014 /* PBXTargetDependency */,
+			);
+			name = NMPopUpViewSwift;
+			productName = NMPopUpViewSwift;
+			productReference = 1FE0D7D559D722E9D5F357302CDD7924 /* NMPopUpViewSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1A643AA61AE0C8491D4B70F50775132B /* Pods-CrystalClearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DA5AB2A11562759C3DAC731F49EBD9 /* Build configuration list for PBXNativeTarget "Pods-CrystalClearTests" */;
+			buildPhases = (
+				91C117F011B561D0D6F2342175FACCF1 /* Headers */,
+				A485D4CEBE5D5C22B494CB25A42F43A0 /* Sources */,
+				D324F85B55C7102D0247E06E642284F1 /* Frameworks */,
+				0D6A61CAF52FD9A548F0C8D9F11A019E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACCEB0242FDE5F4E4249A54F8681E5F /* PBXTargetDependency */,
+			);
+			name = "Pods-CrystalClearTests";
+			productName = "Pods-CrystalClearTests";
+			productReference = 348F2B286C50D0C66C69F3B17B36E32D /* Pods_CrystalClearTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		36E19AD94AD412F36F6C1C1F1703569E /* Pods-CrystalClear-CrystalClearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A17BD8A8006E08D98C012F73D90A75 /* Build configuration list for PBXNativeTarget "Pods-CrystalClear-CrystalClearUITests" */;
+			buildPhases = (
+				0565C63DE9DE8E843DF0EBCF54864BB2 /* Headers */,
+				DA7F50731C03075F5ECFA592295E9F0D /* Sources */,
+				B9C1303B83DE519A0D74EBF13F050807 /* Frameworks */,
+				02228C486FB35CB0CBA7FBED4709D4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				531178A62AC5C78F81673449BAAD929D /* PBXTargetDependency */,
+			);
+			name = "Pods-CrystalClear-CrystalClearUITests";
+			productName = "Pods-CrystalClear-CrystalClearUITests";
+			productReference = AF135CEDE2B5EFC251648D2FF373AA18 /* Pods_CrystalClear_CrystalClearUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A30FBE2CC875AB688EFCBD5850C484D3 /* NMPopUpViewSwift-NMPopUpViewSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B2969FA4261CC253B2E405F1513ED /* Build configuration list for PBXNativeTarget "NMPopUpViewSwift-NMPopUpViewSwift" */;
+			buildPhases = (
+				7F233E378C0105DAC15C8279F334CD22 /* Sources */,
+				F45A201B54308356FCE73E1D4BBF8534 /* Frameworks */,
+				638DA42F764D384D1D5B056C29F61A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NMPopUpViewSwift-NMPopUpViewSwift";
+			productName = "NMPopUpViewSwift-NMPopUpViewSwift";
+			productReference = 8AB8B06C6AF3E1ABC1C1A5ED885C355E /* NMPopUpViewSwift.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 86BA4FADA21D923F21EA2431F67F0016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12735661BD9BE52E9B677FD33B40EAD0 /* NMPopUpViewSwift */,
+				A30FBE2CC875AB688EFCBD5850C484D3 /* NMPopUpViewSwift-NMPopUpViewSwift */,
+				091D7B423401C8424E5297583177033B /* Pods-CrystalClear */,
+				36E19AD94AD412F36F6C1C1F1703569E /* Pods-CrystalClear-CrystalClearUITests */,
+				1A643AA61AE0C8491D4B70F50775132B /* Pods-CrystalClearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02228C486FB35CB0CBA7FBED4709D4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D6A61CAF52FD9A548F0C8D9F11A019E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638DA42F764D384D1D5B056C29F61A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5B53B99B1AF5201195C8D6185387C /* PopUpViewController.xib in Resources */,
+				2F1F22B4397F64B10996FA4DAE88C260 /* PopUpViewController_iPad.xib in Resources */,
+				EBC445AC795E6A3D282656E328CA248C /* PopUpViewController_iPhone6.xib in Resources */,
+				0681C75211AE114B021EBA0A1AD0D1F7 /* PopUpViewController_iPhone6Plus.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E89442EAA57FC8EF4DE80FC1726BB921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5049F12D6DC17B736A08FA64AA91762 /* NMPopUpViewSwift.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E625A3140CD9FD02A1E38AD82EA468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BF3D6ABE35FE15381297CCA7A590C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C92F631D3BD6A1FD11DA6E83C39A57 /* Pods-CrystalClear-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F233E378C0105DAC15C8279F334CD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A485D4CEBE5D5C22B494CB25A42F43A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A534717AFC8CF44CBBEF011D7D3900C1 /* Pods-CrystalClearTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAA431C274A4162117512AD9437FE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA6341E5F68BE4A06C1FC7E6B48F9DA /* NMPopUpViewSwift-dummy.m in Sources */,
+				6C23C6ED41BB29A67C1276BC7D5C4EDA /* PopUpViewController.xib in Sources */,
+				558C6391824B26E938EC76A6A437A113 /* PopUpViewController_iPad.xib in Sources */,
+				4DCE7CD210C6A4D75CD8BE66F398AF5A /* PopUpViewController_iPhone6.xib in Sources */,
+				2B1F94A8BDBC0CF51AC37873973B5BE3 /* PopUpViewController_iPhone6Plus.xib in Sources */,
+				C772E9BEDC1ADA88A9122B0B8ACB05D9 /* PopUpViewControllerSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7F50731C03075F5ECFA592295E9F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18F133F365837062B08A2959599B52 /* Pods-CrystalClear-CrystalClearUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293C7AB1A5D3222D64ABF524567B295D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMPopUpViewSwift;
+			target = 12735661BD9BE52E9B677FD33B40EAD0 /* NMPopUpViewSwift */;
+			targetProxy = 5EF0E7BCDA64825C805E2BF77BC57E50 /* PBXContainerItemProxy */;
+		};
+		3ACCEB0242FDE5F4E4249A54F8681E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CrystalClear";
+			target = 091D7B423401C8424E5297583177033B /* Pods-CrystalClear */;
+			targetProxy = 742D6C622873F0AA2699965E4EC2FBF7 /* PBXContainerItemProxy */;
+		};
+		531178A62AC5C78F81673449BAAD929D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMPopUpViewSwift;
+			target = 12735661BD9BE52E9B677FD33B40EAD0 /* NMPopUpViewSwift */;
+			targetProxy = 796FD9BACCE2D090DDB464F685DDF62F /* PBXContainerItemProxy */;
+		};
+		90357F2DB6D4179A89DC2F7F6D856014 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NMPopUpViewSwift-NMPopUpViewSwift";
+			target = A30FBE2CC875AB688EFCBD5850C484D3 /* NMPopUpViewSwift-NMPopUpViewSwift */;
+			targetProxy = AF68422CC60A72AF7FA7D7D962F1B06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0880A710E5F1DE424467DB57892B006D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059C736257D9FE08D8A82D8DB92B12B6 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32B1ECD158D0147D62661785CE1206A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09818087E9021936D4625B26365D6BA7 /* NMPopUpViewSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NMPopUpViewSwift";
+				IBSC_MODULE = NMPopUpViewSwift;
+				INFOPLIST_FILE = "Target Support Files/NMPopUpViewSwift/ResourceBundle-NMPopUpViewSwift-NMPopUpViewSwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NMPopUpViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		671F0B8684F3CEFC358E408372DC80F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917DEE4D9AFC6DCFC9871F41B473DB2B /* Pods-CrystalClearTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76E02F600CDB421F3304E68731594D91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6F3FF8CBE5C2C0573AEFD68DF2B6A3 /* Pods-CrystalClear.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		94BF87BDFC7A8E16573C16AB64D4DF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09818087E9021936D4625B26365D6BA7 /* NMPopUpViewSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMPopUpViewSwift/NMPopUpViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMPopUpViewSwift/NMPopUpViewSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NMPopUpViewSwift/NMPopUpViewSwift.modulemap";
+				PRODUCT_MODULE_NAME = NMPopUpViewSwift;
+				PRODUCT_NAME = NMPopUpViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0BE6F71B46FB1EB4E281DEBA61A166E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A9D2CDE9B2D1C6DF208CC2739C6580 /* Pods-CrystalClear.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7AE68852888E7D0AD8B89E31E9B4DC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FC6E7452802D1039318B1D2B8D9FCE /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB77E4D995277CE62B97538A08FA3D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09818087E9021936D4625B26365D6BA7 /* NMPopUpViewSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMPopUpViewSwift/NMPopUpViewSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMPopUpViewSwift/NMPopUpViewSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NMPopUpViewSwift/NMPopUpViewSwift.modulemap";
+				PRODUCT_MODULE_NAME = NMPopUpViewSwift;
+				PRODUCT_NAME = NMPopUpViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3945CB08A727A8AA6C53F821B45A484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EA249C011536363C8D32D8F423BC21 /* Pods-CrystalClearTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0A4DA4D44A6C4978F1C137E4E71E2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09818087E9021936D4625B26365D6BA7 /* NMPopUpViewSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NMPopUpViewSwift";
+				IBSC_MODULE = NMPopUpViewSwift;
+				INFOPLIST_FILE = "Target Support Files/NMPopUpViewSwift/ResourceBundle-NMPopUpViewSwift-NMPopUpViewSwift-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NMPopUpViewSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A17BD8A8006E08D98C012F73D90A75 /* Build configuration list for PBXNativeTarget "Pods-CrystalClear-CrystalClearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE68852888E7D0AD8B89E31E9B4DC9 /* Debug */,
+				0880A710E5F1DE424467DB57892B006D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D3C5E85B0068AE182A722898E1F23C /* Build configuration list for PBXNativeTarget "Pods-CrystalClear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76E02F600CDB421F3304E68731594D91 /* Debug */,
+				A0BE6F71B46FB1EB4E281DEBA61A166E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6DA5AB2A11562759C3DAC731F49EBD9 /* Build configuration list for PBXNativeTarget "Pods-CrystalClearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3945CB08A727A8AA6C53F821B45A484 /* Debug */,
+				671F0B8684F3CEFC358E408372DC80F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B329936F91B2302BB8E734ED660CA0 /* Build configuration list for PBXNativeTarget "NMPopUpViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB77E4D995277CE62B97538A08FA3D48 /* Debug */,
+				94BF87BDFC7A8E16573C16AB64D4DF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B2969FA4261CC253B2E405F1513ED /* Build configuration list for PBXNativeTarget "NMPopUpViewSwift-NMPopUpViewSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B1ECD158D0147D62661785CE1206A3 /* Debug */,
+				F0A4DA4D44A6C4978F1C137E4E71E2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
