@@ -101,10 +101,9 @@ class FirstViewController: UIViewController {
         button6.layer.cornerRadius = 10.0
         button6.layer.masksToBounds = true
         
+
     }
     
     
 
-
 }
-
