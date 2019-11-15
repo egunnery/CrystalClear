@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DFC680ED6E490899AF5BCB4 /* Pods_CrystalClearTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A4D4429E49E9F2B9A7DF4A /* Pods_CrystalClearTests.framework */; };
 		104844C5237D9CFA0089EDA2 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104844C4237D9CFA0089EDA2 /* RoundButton.swift */; };
 		10AF6F1A2379F43C00C27416 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AF6F192379F43C00C27416 /* CustomTabBar.swift */; };
-		3F0138B0237C5F91001C9389 /* Pods_CrystalClear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */; };
-		3F0138B1237C5F91001C9389 /* Pods_CrystalClear.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F87088A237DA22C009A1172 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F870889237DA22C009A1172 /* Card.swift */; };
 		52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6723798DF300A95BF2 /* AppDelegate.swift */; };
 		52972B6A23798DF300A95BF2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B6923798DF300A95BF2 /* SceneDelegate.swift */; };
@@ -23,7 +20,6 @@
 		52972B7923798DF600A95BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52972B7723798DF600A95BF2 /* LaunchScreen.storyboard */; };
 		52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8323798DF600A95BF2 /* CrystalClearTests.swift */; };
 		52972B8F23798DF600A95BF2 /* CrystalClearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */; };
-		D965D775BF797A4ECEE28103 /* Pods_CrystalClear_CrystalClearUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E319129DED3034BB6414B5F /* Pods_CrystalClear_CrystalClearUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +46,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3F0138B1237C5F91001C9389 /* Pods_CrystalClear.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,12 +53,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		07A4D4429E49E9F2B9A7DF4A /* Pods_CrystalClearTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClearTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		08E6466C9E65DFBA05E679B4 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; path = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0983B66B0CF1FC5EBB6A4207 /* Pods-CrystalClear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear.release.xcconfig"; path = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear.release.xcconfig"; sourceTree = "<group>"; };
 		104844C4237D9CFA0089EDA2 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F870889237DA22C009A1172 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		52972B6423798DF300A95BF2 /* CrystalClear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalClear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B6723798DF300A95BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,11 +72,6 @@
 		52972B8A23798DF600A95BF2 /* CrystalClearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalClearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalClearUITests.swift; sourceTree = "<group>"; };
 		52972B9023798DF600A95BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E319129DED3034BB6414B5F /* Pods_CrystalClear_CrystalClearUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClear_CrystalClearUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76BB9072902ABFD020C16811 /* Pods-CrystalClear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear.debug.xcconfig"; path = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear.debug.xcconfig"; sourceTree = "<group>"; };
-		BC6D42BECA6B082DBA348DAA /* Pods-CrystalClearTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClearTests.release.xcconfig"; path = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests.release.xcconfig"; sourceTree = "<group>"; };
-		E07C71CBE6AEA18935630734 /* Pods-CrystalClearTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClearTests.debug.xcconfig"; path = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F10D71E43C6A5E6F930F348E /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear-CrystalClearUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F0138B0237C5F91001C9389 /* Pods_CrystalClear.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DFC680ED6E490899AF5BCB4 /* Pods_CrystalClearTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,23 +93,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D965D775BF797A4ECEE28103 /* Pods_CrystalClear_CrystalClearUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		230CC979E675802477A45133 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3F3E4EF4ABF2ABF36545D7F0 /* Pods_CrystalClear.framework */,
-				5E319129DED3034BB6414B5F /* Pods_CrystalClear_CrystalClearUITests.framework */,
-				07A4D4429E49E9F2B9A7DF4A /* Pods_CrystalClearTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		52972B5B23798DF300A95BF2 = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +107,6 @@
 				52972B8D23798DF600A95BF2 /* CrystalClearUITests */,
 				52972B6523798DF300A95BF2 /* Products */,
 				E7E183FC216A46C680D4B4B5 /* Pods */,
-				230CC979E675802477A45133 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,12 +160,6 @@
 		E7E183FC216A46C680D4B4B5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76BB9072902ABFD020C16811 /* Pods-CrystalClear.debug.xcconfig */,
-				0983B66B0CF1FC5EBB6A4207 /* Pods-CrystalClear.release.xcconfig */,
-				F10D71E43C6A5E6F930F348E /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */,
-				08E6466C9E65DFBA05E679B4 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */,
-				E07C71CBE6AEA18935630734 /* Pods-CrystalClearTests.debug.xcconfig */,
-				BC6D42BECA6B082DBA348DAA /* Pods-CrystalClearTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -205,11 +171,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52972B9323798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClear" */;
 			buildPhases = (
-				1999A7CBF0692A4E09A7E759 /* [CP] Check Pods Manifest.lock */,
 				52972B6023798DF300A95BF2 /* Sources */,
 				52972B6123798DF300A95BF2 /* Frameworks */,
 				52972B6223798DF300A95BF2 /* Resources */,
-				2B13059CAD1225C74E7E579A /* [CP] Embed Pods Frameworks */,
 				3F0138B2237C5F91001C9389 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -225,7 +189,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52972B9623798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClearTests" */;
 			buildPhases = (
-				2191FC0F2BC4A783310C730F /* [CP] Check Pods Manifest.lock */,
 				52972B7B23798DF600A95BF2 /* Sources */,
 				52972B7C23798DF600A95BF2 /* Frameworks */,
 				52972B7D23798DF600A95BF2 /* Resources */,
@@ -244,11 +207,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52972B9923798DF600A95BF2 /* Build configuration list for PBXNativeTarget "CrystalClearUITests" */;
 			buildPhases = (
-				2CB1D2F8B5AB5F7A89E91ACF /* [CP] Check Pods Manifest.lock */,
 				52972B8623798DF600A95BF2 /* Sources */,
 				52972B8723798DF600A95BF2 /* Frameworks */,
 				52972B8823798DF600A95BF2 /* Resources */,
-				3CAC24F6D6891D02EDA8F616 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,109 +290,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1999A7CBF0692A4E09A7E759 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CrystalClear-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2191FC0F2BC4A783310C730F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CrystalClearTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B13059CAD1225C74E7E579A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CrystalClear/Pods-CrystalClear-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CrystalClear/Pods-CrystalClear-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrystalClear/Pods-CrystalClear-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2CB1D2F8B5AB5F7A89E91ACF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CrystalClear-CrystalClearUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3CAC24F6D6891D02EDA8F616 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52972B6023798DF300A95BF2 /* Sources */ = {
@@ -616,7 +474,6 @@
 		};
 		52972B9423798DF600A95BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76BB9072902ABFD020C16811 /* Pods-CrystalClear.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,7 +492,6 @@
 		};
 		52972B9523798DF600A95BF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0983B66B0CF1FC5EBB6A4207 /* Pods-CrystalClear.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,7 +510,6 @@
 		};
 		52972B9723798DF600A95BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E07C71CBE6AEA18935630734 /* Pods-CrystalClearTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -676,7 +531,6 @@
 		};
 		52972B9823798DF600A95BF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC6D42BECA6B082DBA348DAA /* Pods-CrystalClearTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -698,7 +552,6 @@
 		};
 		52972B9A23798DF600A95BF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F10D71E43C6A5E6F930F348E /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -718,7 +571,6 @@
 		};
 		52972B9B23798DF600A95BF2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08E6466C9E65DFBA05E679B4 /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
