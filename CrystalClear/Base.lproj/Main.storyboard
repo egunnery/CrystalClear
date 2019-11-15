@@ -15,8 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBN-rd-4lc">
-                                <rect key="frame" x="207" y="82" width="81" height="52"/>
+
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ax-Ls-y7D">
+                                <rect key="frame" x="0.0" y="-130" width="414" height="282"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42066820751917544" green="0.77685799870466321" blue="0.73921947247046993" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="msu-z0-dIZ">
+                                <rect key="frame" x="207" y="160" width="81" height="52"/>
+
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -29,39 +36,63 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+
+                                <connections>
+                                    <action selector="nightFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="REq-VG-IYb"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQE-p3-JNu">
-                                <rect key="frame" x="233" y="512" width="110" height="110"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdh-Ge-oaV">
+                                <rect key="frame" x="233" y="590" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="clear-glass-bottle-filled-with-broccoli-shake-1346347"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="gmg-ET-Tpq"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P36-qb-KHV">
-                                <rect key="frame" x="233" y="343" width="110" height="110"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hO0-7B-seY">
+                                <rect key="frame" x="233" y="421" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="pexels-photo-842571"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="iel-ba-606"/>
+                                </connections>
+
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYF-cQ-3y2">
                                 <rect key="frame" x="63" y="512" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="agriculture-basket-beets-bokeh-533360"/>
+
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tKP-65-Sew"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AT-eX-Iba">
-                                <rect key="frame" x="63" y="343" width="110" height="110"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="413-1f-lJs">
+                                <rect key="frame" x="63" y="421" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="appetizing-bread-breakfast-close-up-357573"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8qd-gs-uZP"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T8E-im-3Zm">
-                                <rect key="frame" x="105" y="343" width="0.0" height="0.0"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpD-P1-noN">
+                                <rect key="frame" x="105" y="421" width="0.0" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="tdW-VO-JBO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kba-8B-kgA">
-                                <rect key="frame" x="233" y="164" width="110" height="110"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wLw-UZ-W2s">
+                                <rect key="frame" x="233" y="242" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="pexels-photo-255501"/>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="8ZP-UJ-xCE"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDp-UD-11C">
-                                <rect key="frame" x="63" y="164" width="110" height="110"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teA-Nu-wWj">
+                                <rect key="frame" x="63" y="242" width="110" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="bazaar"/>
                                 <userDefinedRuntimeAttributes>
@@ -69,9 +100,21 @@
                                         <integer key="value" value="800"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="KF5-q5-Rmt"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1h-th-2uA">
-                                <rect key="frame" x="105" y="69" width="98" height="77"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lifestyle tips" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pJR-7c-FpF">
+                                <rect key="frame" x="105" y="62" width="231" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZS-s6-HYA">
+                                <rect key="frame" x="105" y="147" width="98" height="77"/>
+
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <size key="titleShadowOffset" width="0.0" height="50"/>
@@ -87,6 +130,11 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+
+                                <connections>
+                                    <action selector="dayFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="wwO-VS-coa"/>
+                                </connections>
+
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -100,6 +148,17 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </tabBarItem>
+
+                    <connections>
+                        <outlet property="Button2" destination="wLw-UZ-W2s" id="mjR-Jf-SXG"/>
+                        <outlet property="button" destination="teA-Nu-wWj" id="lkJ-5f-cym"/>
+                        <outlet property="button2" destination="wLw-UZ-W2s" id="0Gu-aB-SsB"/>
+                        <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
+                        <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
+                        <outlet property="button5" destination="rnr-Ck-Pua" id="7w5-nM-FoG"/>
+                        <outlet property="button6" destination="Bdh-Ge-oaV" id="N6Q-2o-B0g"/>
+                    </connections>
+
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
