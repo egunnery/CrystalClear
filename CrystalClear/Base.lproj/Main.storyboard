@@ -147,6 +147,7 @@
                         <outlet property="button2" destination="wLw-UZ-W2s" id="0Gu-aB-SsB"/>
                         <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
                         <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
+                        <outlet property="button5" destination="rnr-Ck-Pua" id="7w5-nM-FoG"/>
                         <outlet property="button6" destination="Bdh-Ge-oaV" id="N6Q-2o-B0g"/>
                     </connections>
                 </viewController>
