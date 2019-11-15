@@ -52,6 +52,7 @@ class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // test
         
         button.layer.cornerRadius = 10.0
         button.layer.masksToBounds = true
