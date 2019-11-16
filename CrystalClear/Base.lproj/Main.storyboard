@@ -15,11 +15,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0ax-Ls-y7D">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0ax-Ls-y7D">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.42352941179999998" green="0.77647058820000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.42352941179999998" green="0.77647058820000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0ax-Ls-y7D" secondAttribute="height" multiplier="414:83" id="2sv-ki-pXh"/>
+                                </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="msu-z0-dIZ">
                                 <rect key="frame" x="207" y="118" width="81" height="52"/>
@@ -100,14 +102,6 @@
                                     <action selector="showAlertButtonTapped:" destination="9pv-A4-QxB" eventType="touchUpInside" id="KF5-q5-Rmt"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lifestyle tips" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pJR-7c-FpF">
-                                <rect key="frame" x="105" y="20" width="231" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="36"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZS-s6-HYA">
                                 <rect key="frame" x="105" y="105" width="98" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -129,8 +123,22 @@
                                     <action selector="dayFlip:" destination="9pv-A4-QxB" eventType="touchUpInside" id="wwO-VS-coa"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lifestyle tips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVU-ed-MhW">
+                                <rect key="frame" x="106" y="16.5" width="202" height="50"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0ax-Ls-y7D" firstAttribute="leading" secondItem="Q5S-lD-jVa" secondAttribute="leading" id="HnI-Gp-7cr"/>
+                            <constraint firstItem="0ax-Ls-y7D" firstAttribute="top" secondItem="Q5S-lD-jVa" secondAttribute="top" id="RSU-Lh-jcc"/>
+                            <constraint firstItem="sVU-ed-MhW" firstAttribute="centerX" secondItem="spy-pE-Bn8" secondAttribute="centerX" id="hzP-5D-bf3"/>
+                            <constraint firstItem="sVU-ed-MhW" firstAttribute="centerY" secondItem="0ax-Ls-y7D" secondAttribute="centerY" id="qGN-Gg-52H"/>
+                            <constraint firstItem="0ax-Ls-y7D" firstAttribute="centerX" secondItem="spy-pE-Bn8" secondAttribute="centerX" id="tgS-jN-RVS"/>
+                            <constraint firstItem="0ax-Ls-y7D" firstAttribute="trailing" secondItem="Q5S-lD-jVa" secondAttribute="trailing" id="vQR-7L-DOk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Q5S-lD-jVa"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Lifestyle Tips" image="book" catalog="system" id="acW-dT-cKf">
@@ -298,8 +306,30 @@
                                     <segue destination="FJf-Ye-OLo" kind="show" identifier="segue" animates="NO" id="vlW-oP-pCI"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-Ng-V3i">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+                                <color key="backgroundColor" red="0.42352941179999998" green="0.77647058820000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.42352941179999998" green="0.77647058820000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IhH-Ng-V3i" secondAttribute="height" multiplier="414:83" id="wNV-vr-V6x"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meditation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CwL-Qg-AHB">
+                                <rect key="frame" x="117.5" y="16.5" width="179" height="50"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IhH-Ng-V3i" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" id="APR-fm-GcT"/>
+                            <constraint firstItem="IhH-Ng-V3i" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="GyZ-EI-y6F"/>
+                            <constraint firstItem="CwL-Qg-AHB" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="LIt-lm-EKo"/>
+                            <constraint firstAttribute="trailing" secondItem="IhH-Ng-V3i" secondAttribute="trailing" id="j2f-LR-WCh"/>
+                            <constraint firstItem="CwL-Qg-AHB" firstAttribute="centerY" secondItem="IhH-Ng-V3i" secondAttribute="centerY" id="mB4-ty-wWX"/>
+                            <constraint firstItem="IhH-Ng-V3i" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" id="uam-1c-4kC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Meditation" image="lightbulb" catalog="system" id="cPa-gy-q4n"/>
