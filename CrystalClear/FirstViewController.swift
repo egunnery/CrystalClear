@@ -9,7 +9,7 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-    
+        
     private let card = Card()
     
     @IBOutlet weak var button: UIButton!
@@ -26,7 +26,7 @@ class FirstViewController: UIViewController {
             let image2 = UIImage(named: "pexels-photo-255501")
             let image3 = UIImage(named: "appetizing-bread-breakfast-close-up-357573")
             let image4 = UIImage(named: "pexels-photo-842571")
-            let image5 = UIImage(named: "agriculture-basket-beets-bokeh-533360")
+            let image5 = UIImage(named: "agriculture-basket")
             let image6 = UIImage(named: "clear-glass-bottle-filled-with-broccoli-shake-1346347")
             button.setImage(image, for: .normal)
             button2.setImage(image2, for: .normal)
@@ -49,7 +49,7 @@ class FirstViewController: UIViewController {
             let image2 = UIImage(named: "night2")
             let image3 = UIImage(named: "night3")
             let image4 = UIImage(named: "night4")
-            let image5 = UIImage(named: "night5")
+            let image5 = UIImage(named: "night6")
             let image6 = UIImage(named: "night6")
             button.setImage(image, for: .normal)
             button2.setImage(image2, for: .normal)
@@ -83,21 +83,23 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.tabBarController?.navigationItem.hidesBackButton = true
+        
         button.layer.cornerRadius = 10.0
         button.layer.masksToBounds = true
-        
+
         button2.layer.cornerRadius = 10.0
         button2.layer.masksToBounds = true
-        
+
         button3.layer.cornerRadius = 10.0
         button3.layer.masksToBounds = true
-        
+
         button4.layer.cornerRadius = 10.0
         button4.layer.masksToBounds = true
-        
+
         button5.layer.cornerRadius = 10.0
         button5.layer.masksToBounds = true
-        
+
         button6.layer.cornerRadius = 10.0
         button6.layer.masksToBounds = true
         
@@ -107,4 +109,3 @@ class FirstViewController: UIViewController {
 
 
 }
-
