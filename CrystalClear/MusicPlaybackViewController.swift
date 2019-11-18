@@ -12,13 +12,28 @@ import AVFoundation
 
 class MusicPlaybackViewController: UIViewController {
     
- //   @IBOutlet weak var myImageView: UIImageView!
-    @IBAction func play(_ sender: UIButton!) {
-        if audioSelected == true && audioPlayer.isPlaying == false {
-            audioPlayer.play()
-        }
+    var isPlaying = true
+    var timer:Timer!
+    
+    @IBAction func playOrPauseMusic(_ sender: Any) {
+        if isPlaying {
+             audioPlayer.pause()
+             isPlaying = false
+         } else {
+             audioPlayer.play()
+             isPlaying = true
+
+             timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
+         }
+        
+        
     }
-   
+
+    @IBAction func stopMusic(_ sender: Any) {
+        audioPlayer.stop()
+        audioPlayer.currentTime = 0
+        isPlaying = false
+    }
     
     @IBAction func prev(_ sender: UIButton!) {
         if thisSong != 0 && audioSelected == true {
@@ -42,8 +57,7 @@ class MusicPlaybackViewController: UIViewController {
         audioPlayer.volume = sender.value
         }
     }
-    
-    @IBOutlet weak var label: UILabel!
+
     
     func playThis(thisOne:String) {
         do {
@@ -55,6 +69,15 @@ class MusicPlaybackViewController: UIViewController {
                 print ("ERROR");
             }
         }
+    
+    @objc func updateTime() {
+        let currentTime = Int(audioPlayer.currentTime)
+        let minutes = currentTime/60
+        let seconds = currentTime - minutes * 60
+            
+//        playedTime.text = String(format: "%02d:%02d", minutes,seconds) as String
+    }
+    
 
 
     override func viewDidLoad() {

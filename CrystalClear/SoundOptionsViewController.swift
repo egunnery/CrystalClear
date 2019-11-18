@@ -13,23 +13,24 @@ var songs:[String] = []
 var audioPlayer: AVAudioPlayer!
 var thisSong = 0
 var audioSelected = false
+var isPlaying = false
 
 class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    let ncObserver = NotificationCenter.default
 
     @IBOutlet weak var myTableView: UITableView!
+ 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-     //   print (songs)
         return songs.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         cell.textLabel?.text = songs[indexPath.row]
-  //      print(songs[indexPath.row])
         return cell
     }
-    
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -37,8 +38,12 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             audioPlayer.play()
+            isPlaying = true
             thisSong = indexPath.row
             audioSelected = true
+            
+            //code for segue to work
+            performSegue(withIdentifier: "musicPlayer", sender: self)
 
         }
         catch {
@@ -50,10 +55,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
         gettingSongName()
-        
     }
     
     
@@ -80,5 +82,4 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
             
         }
     }
-
 }
