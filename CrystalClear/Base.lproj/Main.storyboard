@@ -152,9 +152,7 @@
                     <connections>
                         <outlet property="Button2" destination="wLw-UZ-W2s" id="mjR-Jf-SXG"/>
                         <outlet property="button" destination="teA-Nu-wWj" id="lkJ-5f-cym"/>
-
                         <outlet property="button2" destination="wLw-UZ-W2s" id="Gfq-Et-pY1"/>
-
                         <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
                         <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
                         <outlet property="button5" destination="nYF-cQ-3y2" id="ZeQ-t0-WFS"/>
@@ -242,9 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1L-XY-ZrL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="2673.913043478261" y="359.59821428571428"/>
-
         </scene>
         <!--Health-->
         <scene sceneID="oRq-Ad-ENC">
@@ -277,15 +273,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edH-nK-F07">
-                                <rect key="frame" x="52" y="208" width="312" height="436"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="FJf-Ye-OLo" kind="show" identifier="segue" animates="NO" id="vlW-oP-pCI"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-Ng-V3i">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
                                 <color key="backgroundColor" red="0.42352941179999998" green="0.77647058820000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -300,6 +287,41 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="edH-nK-F07">
+                                <rect key="frame" x="0.0" y="74" width="414" height="326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="200"/>
+                                <size key="titleShadowOffset" width="50" height="50"/>
+                                <state key="normal" backgroundImage="darrell-cassell-hoCXpPUMCoE-unsplash">
+                                    <string key="title">  self-led meditation</string>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="FJf-Ye-OLo" kind="show" identifier="segue" animates="NO" id="vlW-oP-pCI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLH-bu-qQW">
+                                <rect key="frame" x="164" y="536" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Syd-ny-mYg">
+                                <rect key="frame" x="0.0" y="400" width="414" height="326"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="200"/>
+                                <size key="titleShadowOffset" width="1000" height="1000"/>
+                                <state key="normal" backgroundImage="gaelle-marcel-f9J5L_2u-I0-unsplash">
+                                    <string key="title">  guidedmeditation</string>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -428,6 +450,8 @@
         <image name="bazaar" width="3581" height="4013"/>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="clear-glass-bottle-filled-with-broccoli-shake-1346347" width="3558" height="3558"/>
+        <image name="darrell-cassell-hoCXpPUMCoE-unsplash" width="3264" height="2448"/>
+        <image name="gaelle-marcel-f9J5L_2u-I0-unsplash" width="3244" height="3446"/>
         <image name="lightbulb" catalog="system" width="56" height="64"/>
         <image name="pexels-photo-255501" width="1000" height="1500"/>
         <image name="pexels-photo-842571" width="938" height="874"/>
