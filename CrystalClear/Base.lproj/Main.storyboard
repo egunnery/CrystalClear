@@ -295,7 +295,8 @@
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="200"/>
                                 <size key="titleShadowOffset" width="50" height="50"/>
                                 <state key="normal" backgroundImage="darrell-cassell-hoCXpPUMCoE-unsplash">
-                                    <string key="title">  self-led meditation</string>
+                                    <string key="title">  self-led 
+meditation</string>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="" value="NO"/>
@@ -318,7 +319,8 @@
                                 <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="100" maxY="200"/>
                                 <size key="titleShadowOffset" width="1000" height="1000"/>
                                 <state key="normal" backgroundImage="gaelle-marcel-f9J5L_2u-I0-unsplash">
-                                    <string key="title">  guidedmeditation</string>
+                                    <string key="title">  guided
+meditation</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
