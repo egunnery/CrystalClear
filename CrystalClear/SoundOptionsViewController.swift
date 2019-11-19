@@ -55,6 +55,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        songs = []
         gettingSongName()
     }
     

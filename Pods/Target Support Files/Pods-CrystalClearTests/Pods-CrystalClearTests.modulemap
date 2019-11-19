@@ -1,0 +1,6 @@
+framework module Pods_CrystalClearTests {
+  umbrella header "Pods-CrystalClearTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

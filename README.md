@@ -22,7 +22,6 @@ open -a Xcode Podfile
 
 This will open the Podfile. Below "# Pods for CrystalClear" type:
 ```ruby
-pod 'Swifty'
 pod 'SwiftyGif'
 ```
 
