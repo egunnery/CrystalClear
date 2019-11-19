@@ -152,9 +152,7 @@
                     <connections>
                         <outlet property="Button2" destination="wLw-UZ-W2s" id="mjR-Jf-SXG"/>
                         <outlet property="button" destination="teA-Nu-wWj" id="lkJ-5f-cym"/>
-
                         <outlet property="button2" destination="wLw-UZ-W2s" id="Gfq-Et-pY1"/>
-
                         <outlet property="button3" destination="413-1f-lJs" id="UiP-IL-mTA"/>
                         <outlet property="button4" destination="hO0-7B-seY" id="JzS-Xc-auC"/>
                         <outlet property="button5" destination="nYF-cQ-3y2" id="ZeQ-t0-WFS"/>
@@ -187,15 +185,6 @@
                                     <action selector="prev:" destination="ePP-5R-X85" eventType="touchUpInside" id="tkE-mq-9yf"/>
                                 </connections>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mkR-Ll-3GT">
-                                <rect key="frame" x="113" y="685" width="188" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="29" id="uir-ma-Oqo"/>
-                                </constraints>
-                                <connections>
-                                    <action selector="slider:" destination="ePP-5R-X85" eventType="valueChanged" id="lnC-OC-Xo4"/>
-                                </connections>
-                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfS-i2-Jrc">
                                 <rect key="frame" x="43" y="255" width="121" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -226,6 +215,23 @@
                                     <action selector="next:" destination="ePP-5R-X85" eventType="touchUpInside" id="rPk-tY-ecd"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epv-B5-Poj">
+                                <rect key="frame" x="187" y="649" width="40" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Timer"/>
+                                <connections>
+                                    <segue destination="Bbz-9T-js5" kind="show" id="3lQ-63-VUk"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mkR-Ll-3GT">
+                                <rect key="frame" x="113" y="515" width="188" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="uir-ma-Oqo"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="slider:" destination="ePP-5R-X85" eventType="valueChanged" id="lnC-OC-Xo4"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -242,9 +248,77 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1L-XY-ZrL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-
             <point key="canvasLocation" x="2673.913043478261" y="359.59821428571428"/>
-
+        </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="uE4-L8-gy6">
+            <objects>
+                <viewController id="Bbz-9T-js5" customClass="TimerViewController" customModule="CrystalClear" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Yg-kV-Jqh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VYB-Q1-OUK">
+                                <rect key="frame" x="186" y="20" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uoc-lK-ek9">
+                                <rect key="frame" x="0.0" y="49" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIQ-mN-diJ">
+                                <rect key="frame" x="190" y="249" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startTimerPressed:" destination="Bbz-9T-js5" eventType="touchUpInside" id="5YH-qB-Cbt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fj-d6-DhV">
+                                <rect key="frame" x="186" y="313" width="162" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="efV-1i-Pqp"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l8x-rf-WSm"/>
+                    <connections>
+                        <outlet property="picker" destination="uoc-lK-ek9" id="Ljq-s1-QBn"/>
+                        <outlet property="timerLabel" destination="0Fj-d6-DhV" id="eXP-4U-a38"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kjP-iG-Bgh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2669.5652173913045" y="1033.9285714285713"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gia-OI-Ped">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tsw-1w-pTr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="w05-vy-bE1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K7I-SY-bmd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="d2O-F3-tpj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="r2s-z5-IhY"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3526.0869565217395" y="358.92857142857139"/>
         </scene>
         <!--Health-->
         <scene sceneID="oRq-Ad-ENC">
@@ -316,7 +390,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647.826086956522" y="359.59821428571428"/>
+            <point key="canvasLocation" x="1870" y="-374"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Vu1-vC-Vim">
@@ -400,7 +474,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x6u-DD-Sf5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3618.840579710145" y="359.59821428571428"/>
+            <point key="canvasLocation" x="2648" y="-373"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Lpp-W3-iEX">

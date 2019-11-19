@@ -22,8 +22,6 @@ class MusicPlaybackViewController: UIViewController {
          } else {
              audioPlayer.play()
              isPlaying = true
-
-             timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
          }
         
         
@@ -39,14 +37,12 @@ class MusicPlaybackViewController: UIViewController {
         if thisSong != 0 && audioSelected == true {
             playThis(thisOne: songs[thisSong-1])
             thisSong -= 1
-   //         label.text = songs[thisSong]
         }
     }
     @IBAction func next(_ sender: UIButton!) {
         if thisSong < songs.count-1 && audioSelected == true {
             playThis(thisOne: songs[thisSong+1])
             thisSong += 1
- //           label.text = songs[thisSong]
         } else {
             audioPlayer.stop()
         }
@@ -70,20 +66,8 @@ class MusicPlaybackViewController: UIViewController {
             }
         }
     
-    @objc func updateTime() {
-        let currentTime = Int(audioPlayer.currentTime)
-        let minutes = currentTime/60
-        let seconds = currentTime - minutes * 60
-            
-//        playedTime.text = String(format: "%02d:%02d", minutes,seconds) as String
-    }
-    
-
-
     override func viewDidLoad() {
         super.viewDidLoad()
-  //      label.text = "test" //songs[thisSong]
-        // Do any additional setup after loading the view.
     }
     
   
