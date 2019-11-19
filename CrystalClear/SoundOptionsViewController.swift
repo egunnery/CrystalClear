@@ -15,18 +15,21 @@ var thisSong = 0
 var audioSelected = false
 
 class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+
     @IBOutlet weak var myTableView: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print (songs)
         return songs.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         cell.textLabel?.text = songs[indexPath.row]
+        print(songs[indexPath.row])
         return cell
     }
+    
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -35,6 +38,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             audioPlayer.play()
             thisSong = indexPath.row
+
             audioSelected = true
         }
         catch {
@@ -51,6 +55,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
         // Do any additional setup after loading the view.
         
         gettingSongName()
+        tableView.reloadData()
     }
     
     
@@ -67,6 +72,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
                     mySong = mySong.replacingOccurrences(of: "%20", with: " ")
                     mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
                     songs.append(mySong)
+
                 }
             }
             
