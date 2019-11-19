@@ -73,6 +73,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
                     mySong = mySong.replacingOccurrences(of: "%20", with: " ")
                     mySong = mySong.replacingOccurrences(of: ".mp3", with: "")
                     songs.append(mySong)
+                    songs = songs.filter(){$0 != "Bell"}
 
                 }
             }
