@@ -12,6 +12,7 @@ import AVFoundation
 var songs:[String] = []
 var audioPlayer: AVAudioPlayer!
 var thisSong = 0
+var timerSong = 0
 var audioSelected = false
 var isPlaying = false
 

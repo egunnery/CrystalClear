@@ -11,6 +11,7 @@ import AVFoundation
 
 class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    let timerSong = Int(thisSong)
     let pickerData = ["5 Minutes", "10 Minutes", "20 Minutes"]
     var countdownTimer: Timer!
     var totalTime = 60
@@ -18,10 +19,11 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     var timeString = ""
     var timerOn = false
     var timerChecker = false
-    var timerSong = Int(thisSong)
     var secondsToDelay = 4.0
     let audioPath = Bundle.main.path(forResource: "Bell", ofType: ".mp3")
     let audioPath1 = Bundle.main.path(forResource: "test", ofType: ".mp3")
+    let audioPath3 = Bundle.main.path(forResource: "ES_Thunderstorm Rain 2 - SFX Producer", ofType: ".mp3")
+    let audioPath2 = Bundle.main.path(forResource: "bensound-summer", ofType: ".mp3")
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -120,11 +122,38 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             catch {
                 print ("ERROR");
             }
+
     }
     
         override func viewDidDisappear(_ animated: Bool) {
             if isPlaying {
                 timerChecker = false
+            }
+                print (Int(thisSong))
+                if Int(thisSong) == 0 {
+                    do{
+                        audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath1!))
+                    }
+                    catch {
+                        print ("ERROR");
+                    }
+                }
+                else if Int(thisSong) == 1 {
+                    do{
+                        audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath2!))
+                    }
+                    catch {
+                        print ("ERROR");
+                    }
+                }
+                else if Int(thisSong) == 2 {
+                    do{
+                        audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath3!))
+                    }
+                    catch {
+                        print ("ERROR");
+                    }
+                }
             }
         }
     
@@ -138,4 +167,4 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     */
     
-}
+
