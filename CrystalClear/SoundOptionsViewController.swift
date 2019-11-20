@@ -38,7 +38,6 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
             audioPlayer.play()
             isPlaying = true
             thisSong = indexPath.row
-            timerSong = Int(thisSong)
             audioSelected = true
             
             //code for segue to work
