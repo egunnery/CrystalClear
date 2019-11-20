@@ -17,7 +17,12 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     var valueSelected = ""
     var timeString = ""
     var timerOn = false
+    var timerChecker = false
+    var timerSong = Int(thisSong)
+    var secondsToDelay = 4.0
     let audioPath = Bundle.main.path(forResource: "Bell", ofType: ".mp3")
+    let audioPath1 = Bundle.main.path(forResource: "test", ofType: ".mp3")
+
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -64,13 +69,17 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     func startTimer() {
         countdownTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
         timerOn = true
-        
+        timerChecker = true
     }
     
     func timeSelector() {
         if String(valueSelected) == "5 Minutes" {
-            totalTime = 5 * 60
-        } else {
+            totalTime = 3
+        }
+        else if valueSelected == "" {
+            totalTime = 3
+            }
+        else {
             timeString = String(valueSelected.prefix(2))
             let timeSelected = Int(timeString) ?? 0
             totalTime = timeSelected * 60
@@ -83,14 +92,16 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         if totalTime != 0 {
             totalTime -= 1
         } else {
-            endTimer()
             playThis()
+            endTimer()
         }
     }
     
+
     func endTimer() {
         countdownTimer.invalidate()
         timerOn = false
+        timerChecker = false
     }
     
     func timeFormatted(_ totalSeconds: Int) -> String {
@@ -101,17 +112,24 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
 
     func playThis() {
+ 
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-            audioPlayer?.play()
+            if timerChecker == true {
+                audioPlayer?.play()
+                }
+            timerChecker = false
             }
             catch {
                 print ("ERROR");
             }
-//            print(audioPath)
-////        }
     }
     
+        override func viewDidDisappear(_ animated: Bool) {
+            if isPlaying {
+                timerChecker = false
+            }
+        }
 
     /*
     // MARK: - Navigation

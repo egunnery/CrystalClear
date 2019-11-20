@@ -10,18 +10,20 @@ import UIKit
 import AVFoundation
 
 
+
 class MusicPlaybackViewController: UIViewController {
     
     var isPlaying = true
     var timer:Timer!
+
     
-    override func viewDidDisappear(_ animated: Bool) {
-        if isPlaying {
-            audioPlayer.stop()
-            audioPlayer.currentTime = 0
-            isPlaying = false
-        }
-    }
+//    override func viewDidDisappear(_ animated: Bool) {
+//        if isPlaying {
+//            audioPlayer.stop()
+//            audioPlayer.currentTime = 0
+//            isPlaying = false
+//        }
+//    }
     
     @IBAction func playOrPauseMusic(_ sender: Any) {
         if isPlaying {

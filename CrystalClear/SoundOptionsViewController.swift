@@ -16,8 +16,6 @@ var audioSelected = false
 var isPlaying = false
 
 class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    let ncObserver = NotificationCenter.default
 
     @IBOutlet weak var myTableView: UITableView!
  
@@ -40,6 +38,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
             audioPlayer.play()
             isPlaying = true
             thisSong = indexPath.row
+            timerSong = Int(thisSong)
             audioSelected = true
             
             //code for segue to work
@@ -57,6 +56,7 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
         super.viewDidLoad()
         songs = []
         gettingSongName()
+
     }
     
     

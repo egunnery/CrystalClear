@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-
+import AVFoundation
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().isTranslucent = false
         return true
+        
+        
     }
 
     // MARK: UISceneSession Lifecycle

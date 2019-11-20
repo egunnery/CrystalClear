@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class FirstViewController: UIViewController {
         
     private let card = Card()
@@ -102,6 +103,8 @@ class FirstViewController: UIViewController {
 
         button6.layer.cornerRadius = 10.0
         button6.layer.masksToBounds = true
+        
+
         
     }
     
