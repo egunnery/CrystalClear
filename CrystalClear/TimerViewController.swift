@@ -21,8 +21,8 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     var timerChecker = false
     var secondsToDelay = 4.0
     let audioPath = Bundle.main.path(forResource: "Bell", ofType: ".mp3")
-    let audioPath1 = Bundle.main.path(forResource: "test", ofType: ".mp3")
-    let audioPath3 = Bundle.main.path(forResource: "ES_Thunderstorm Rain 2 - SFX Producer", ofType: ".mp3")
+    let audioPath3 = Bundle.main.path(forResource: "test", ofType: ".mp3")
+    let audioPath1 = Bundle.main.path(forResource: "Ocean Waves", ofType: ".mp3")
     let audioPath2 = Bundle.main.path(forResource: "bensound-summer", ofType: ".mp3")
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -74,10 +74,10 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     func timeSelector() {
         if String(valueSelected) == "5 Minutes" {
-            totalTime = 3
+            totalTime = 300
         }
         else if valueSelected == "" {
-            totalTime = 3
+            totalTime = 300
             }
         else {
             timeString = String(valueSelected.prefix(2))
