@@ -24,12 +24,6 @@ class MusicPlaybackViewController: UIViewController {
              isPlaying = true
          }
     }
-
-    @IBAction func stopMusic(_ sender: Any) {
-        audioPlayer.stop()
-        audioPlayer.currentTime = 0
-        isPlaying = false
-    }
     
     @IBAction func prev(_ sender: UIButton!) {
         if thisSong != 0 && audioSelected == true {

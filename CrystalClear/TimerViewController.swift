@@ -17,12 +17,16 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     var valueSelected = ""
     var timeString = ""
     var timerOn = false
+    var timerChecker = false
+    var timerSong = Int(thisSong)
+    var secondsToDelay = 4.0
     let audioPath = Bundle.main.path(forResource: "Bell", ofType: ".mp3")
-    
+    let audioPath1 = Bundle.main.path(forResource: "test", ofType: ".mp3")
+
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
-    
+
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerData.count
     }
@@ -35,7 +39,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
          // This method is triggered whenever the user makes a change to the picker selection.
          // The parameter named row and component represents what was selected.
         valueSelected = pickerData[row] as String
-        
+    
         if timerOn {
         countdownTimer.invalidate()
         }
@@ -45,7 +49,6 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     @IBOutlet weak var picker: UIPickerView!
     @IBOutlet weak var timerLabel: UILabel!
     
-
     @IBAction func startTimerPressed(_ sender: Any) {
         timeSelector()
         startTimer()
@@ -53,7 +56,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         
         self.picker.delegate = self
@@ -64,13 +67,17 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     func startTimer() {
         countdownTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
         timerOn = true
-        
+        timerChecker = true
     }
     
     func timeSelector() {
         if String(valueSelected) == "5 Minutes" {
-            totalTime = 5 * 60
-        } else {
+            totalTime = 3
+        }
+        else if valueSelected == "" {
+            totalTime = 3
+            }
+        else {
             timeString = String(valueSelected.prefix(2))
             let timeSelected = Int(timeString) ?? 0
             totalTime = timeSelected * 60
@@ -79,18 +86,19 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     @objc func updateTime() {
         timerLabel.text = "\(timeFormatted(totalTime))"
-
+        
         if totalTime != 0 {
             totalTime -= 1
         } else {
-            endTimer()
             playThis()
+            endTimer()
         }
     }
     
     func endTimer() {
         countdownTimer.invalidate()
         timerOn = false
+        timerChecker = false
     }
     
     func timeFormatted(_ totalSeconds: Int) -> String {
@@ -99,28 +107,35 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         //     let hours: Int = totalSeconds / 3600
         return String(format: "%02d:%02d", minutes, seconds)
     }
-
+    
     func playThis() {
+        
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-            audioPlayer?.play()
+            if timerChecker == true {
+                audioPlayer?.play()
+                }
+            timerChecker = false
             }
             catch {
                 print ("ERROR");
             }
-//            print(audioPath)
-////        }
     }
     
-
+        override func viewDidDisappear(_ animated: Bool) {
+            if isPlaying {
+                timerChecker = false
+            }
+        }
+    
     /*
     // MARK: - Navigation
-
+​
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }
