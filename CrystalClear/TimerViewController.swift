@@ -129,7 +129,6 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             if isPlaying {
                 timerChecker = false
             }
-                print (Int(thisSong))
                 if Int(thisSong) == 0 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath1!))
