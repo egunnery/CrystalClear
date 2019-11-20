@@ -16,11 +16,15 @@ var audioSelected = false
 var isPlaying = false
 
 class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    let ncObserver = NotificationCenter.default
 
     @IBOutlet weak var myTableView: UITableView!
- 
+    
+     override func viewDidLoad() {
+         super.viewDidLoad()
+         songs = []
+         gettingSongName()
+     }
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return songs.count
@@ -37,8 +41,8 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
         do {
             let audioPath = Bundle.main.path(forResource: songs[indexPath.row], ofType: ".mp3")
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
-            audioPlayer.play()
-            isPlaying = true
+     //       audioPlayer.play()
+     //       isPlaying = true
             thisSong = indexPath.row
             audioSelected = true
             
@@ -50,13 +54,6 @@ class SoundOptionsViewController: UIViewController, UITableViewDelegate, UITable
             print ("ERROR");
         }
 
-    }
-    
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        songs = []
-        gettingSongName()
     }
     
     

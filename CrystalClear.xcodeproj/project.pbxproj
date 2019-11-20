@@ -30,8 +30,10 @@
 		52972B8423798DF600A95BF2 /* CrystalClearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8323798DF600A95BF2 /* CrystalClearTests.swift */; };
 		52972B8F23798DF600A95BF2 /* CrystalClearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */; };
 		52AA415A237F07CA00883923 /* bensound-summer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AA4159237F07CA00883923 /* bensound-summer.mp3 */; };
-		52AA415D237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AA415B237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */; };
 		52AA415E237F087700883923 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52AA415C237F087700883923 /* test.mp3 */; };
+		52CCDD3823858B98009B5E87 /* GuidedMeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CCDD3723858B98009B5E87 /* GuidedMeditationViewController.swift */; };
+		52CCDD5623859A6A009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52CCDD5523859A6A009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */; };
+		52CCDD6223859F4C009B5E87 /* Meditation1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 52CCDD6123859F4C009B5E87 /* Meditation1.m4a */; };
 		BA6CE994375C5E818656C766 /* Pods_CrystalClearTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126ED150EFFB9B4819988156 /* Pods_CrystalClearTests.framework */; };
 		CDF980EA31C84D191A44403D /* Pods_CrystalClear_CrystalClearUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78F44D8F14F63B3E2BF5DD1 /* Pods_CrystalClear_CrystalClearUITests.framework */; };
 		FB0ABDF97A10F52365A9DBC0 /* Pods_CrystalClear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F30A071DDFF42DCBAD29A6A /* Pods_CrystalClear.framework */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -101,12 +103,15 @@
 		52972B8A23798DF600A95BF2 /* CrystalClearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalClearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52972B8E23798DF600A95BF2 /* CrystalClearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalClearUITests.swift; sourceTree = "<group>"; };
 		52972B9023798DF600A95BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = "<group>"; };
 		52972B9F237C145D00A95BF2 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
 		52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-summer.mp3"; sourceTree = "<group>"; };
 		52AA4159237F07CA00883923 /* bensound-summer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-summer.mp3"; path = "CrystalClear/Songs/bensound-summer.mp3"; sourceTree = "<group>"; };
-		52AA415B237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; path = "CrystalClear/Songs/ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = "<group>"; };
 		52AA415C237F087700883923 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = test.mp3; path = CrystalClear/Songs/test.mp3; sourceTree = "<group>"; };
+		52CCDD3723858B98009B5E87 /* GuidedMeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidedMeditationViewController.swift; sourceTree = "<group>"; };
+		52CCDD5523859A6A009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; path = "CrystalClear/Songs/ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = SOURCE_ROOT; };
+		52CCDD5723859A7B009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ES_Thunderstorm Rain 2 - SFX Producer.mp3"; path = "CrystalClear/Songs/ES_Thunderstorm Rain 2 - SFX Producer.mp3"; sourceTree = SOURCE_ROOT; };
+		52CCDD5D23859ED1009B5E87 /* Meditation1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Meditation1.m4a; sourceTree = SOURCE_ROOT; };
+		52CCDD6123859F4C009B5E87 /* Meditation1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Meditation1.m4a; sourceTree = SOURCE_ROOT; };
 		5F2199958CF6562167011C32 /* Pods-CrystalClear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear.release.xcconfig"; path = "Target Support Files/Pods-CrystalClear/Pods-CrystalClear.release.xcconfig"; sourceTree = "<group>"; };
 		72704B172B4A02CDA878E183 /* Pods-CrystalClear-CrystalClearUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear-CrystalClearUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8C710A3FD9055DB8F39C71C6 /* Pods-CrystalClearTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClearTests.debug.xcconfig"; path = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,8 +150,9 @@
 		52972B5B23798DF300A95BF2 = {
 			isa = PBXGroup;
 			children = (
-				52AA415B237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */,
 				52AA415C237F087700883923 /* test.mp3 */,
+				52CCDD6123859F4C009B5E87 /* Meditation1.m4a */,
+				52CCDD5523859A6A009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */,
 				52AA4159237F07CA00883923 /* bensound-summer.mp3 */,
 				52972B6623798DF300A95BF2 /* CrystalClear */,
 				52972B8223798DF600A95BF2 /* CrystalClearTests */,
@@ -179,6 +185,7 @@
 				52972B6D23798DF300A95BF2 /* SecondViewController.swift */,
 				526FD52B237D8089004151B3 /* MusicPlaybackViewController.swift */,
 				52966ED1237EBF0800CA2A8D /* SoundOptionsViewController.swift */,
+				52CCDD3723858B98009B5E87 /* GuidedMeditationViewController.swift */,
 				3F0CCB08237F407900704EA0 /* LogoAnimationView.swift */,
 				3F0CCAE4237F315900704EA0 /* logo.gif */,
 				3F0CCB0A237F527A00704EA0 /* UIView+Constraints.swift */,
@@ -217,9 +224,10 @@
 		52972B9C237B083400A95BF2 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				52CCDD5723859A7B009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */,
 				52972BA3237C3AA000A95BF2 /* bensound-summer.mp3 */,
+				52CCDD5D23859ED1009B5E87 /* Meditation1.m4a */,
 				52972B9F237C145D00A95BF2 /* test.mp3 */,
-				52972B9D237B083400A95BF2 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 */,
 			);
 			name = Songs;
 			path = ../../../../Desktop/Songs;
@@ -358,10 +366,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CCDD5623859A6A009B5E87 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */,
 				3F29568F238421D400CCF211 /* Bell.mp3 in Resources */,
-				52AA415D237F087700883923 /* ES_Thunderstorm Rain 2 - SFX Producer.mp3 in Resources */,
 				52AA415E237F087700883923 /* test.mp3 in Resources */,
 				3F0CCB05237F33ED00704EA0 /* LaunchScreen.storyboard in Resources */,
+				52CCDD6223859F4C009B5E87 /* Meditation1.m4a in Resources */,
 				52AA415A237F07CA00883923 /* bensound-summer.mp3 in Resources */,
 				52972B7623798DF600A95BF2 /* Assets.xcassets in Resources */,
 				52972B7123798DF300A95BF2 /* Main.storyboard in Resources */,
@@ -501,6 +510,7 @@
 				3F8708CC238315B0009A1172 /* TimerViewController.swift in Sources */,
 				3F0CCB07237F3D0C00704EA0 /* ViewController.swift in Sources */,
 				52972B6C23798DF300A95BF2 /* FirstViewController.swift in Sources */,
+				52CCDD3823858B98009B5E87 /* GuidedMeditationViewController.swift in Sources */,
 				526FD52C237D8089004151B3 /* MusicPlaybackViewController.swift in Sources */,
 				52972B6823798DF300A95BF2 /* AppDelegate.swift in Sources */,
 				52966ED2237EBF0800CA2A8D /* SoundOptionsViewController.swift in Sources */,

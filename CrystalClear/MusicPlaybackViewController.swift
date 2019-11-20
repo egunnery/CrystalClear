@@ -12,27 +12,17 @@ import AVFoundation
 
 class MusicPlaybackViewController: UIViewController {
     
-    var isPlaying = true
+    var isPlaying = false
     var timer:Timer!
-    
-    override func viewDidDisappear(_ animated: Bool) {
-        if isPlaying {
-            audioPlayer.stop()
-            audioPlayer.currentTime = 0
-            isPlaying = false
-        }
-    }
     
     @IBAction func playOrPauseMusic(_ sender: Any) {
         if isPlaying {
-             audioPlayer.pause()
-             isPlaying = false
+            audioPlayer.pause()
+            isPlaying = false
          } else {
              audioPlayer.play()
              isPlaying = true
          }
-        
-        
     }
 
     @IBAction func stopMusic(_ sender: Any) {
@@ -78,6 +68,14 @@ class MusicPlaybackViewController: UIViewController {
         super.viewDidLoad()
     }
     
-  
+    override func viewWillDisappear(_ animated: Bool)
+    {
+        super.viewWillDisappear(animated);
+        if self.isMovingFromParent
+        {
+            audioPlayer.stop()
+        }
+    }
 
 }
+
