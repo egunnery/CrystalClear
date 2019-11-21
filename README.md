@@ -2,7 +2,7 @@
 
 [![forthebadge made-with-swift](http://ForTheBadge.com/images/badges/made-with-swift.svg)](https://developer.apple.com/swift/) [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/egunnery/CrystalClear/pulse) [![ForTheBadge makes-people-smile](http://ForTheBadge.com/images/badges/makes-people-smile.svg)](http://ForTheBadge.com)
 
-An iOS app to promote a modern, healthy lifestyle including tips and meditation features. 
+A perfect mindfulness app for beginners, including guided and self-led meditations, available in lengths of 5, 10 and 20 minutes. Also includes lifestyle tips to improve your health. 
 
 ## To run in Xcode
 
