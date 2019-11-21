@@ -21,9 +21,9 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     var timerChecker = false
     var secondsToDelay = 4.0
     let audioPath = Bundle.main.path(forResource: "Bell", ofType: ".mp3")
-    let audioPath3 = Bundle.main.path(forResource: "test", ofType: ".mp3")
+    let audioPath3 = Bundle.main.path(forResource: "Fireplace", ofType: ".mp3")
     let audioPath1 = Bundle.main.path(forResource: "Ocean Waves", ofType: ".mp3")
-    let audioPath2 = Bundle.main.path(forResource: "bensound-summer", ofType: ".mp3")
+    let audioPath2 = Bundle.main.path(forResource: "Rain", ofType: ".mp3")
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -130,6 +130,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 if Int(thisSong) == 0 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath1!))
+                        audioPlayer?.play()
                     }
                     catch {
                         print ("ERROR");
@@ -138,6 +139,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 else if Int(thisSong) == 1 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath2!))
+                        audioPlayer?.play()
                     }
                     catch {
                         print ("ERROR");
@@ -146,6 +148,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 else if Int(thisSong) == 2 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath3!))
+                        audioPlayer?.play()
                     }
                     catch {
                         print ("ERROR");
