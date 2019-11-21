@@ -45,12 +45,12 @@ class FirstViewController: UIViewController {
     @IBAction func nightFlip(_ sender: Any) {
         if card.isDay == true {
             card.isDay = false
-            let image = UIImage(named: "night1")
-            let image2 = UIImage(named: "night2")
-            let image3 = UIImage(named: "night3")
-            let image4 = UIImage(named: "night4")
-            let image5 = UIImage(named: "night6")
-            let image6 = UIImage(named: "night6")
+            let image = UIImage(named: "Card1")
+            let image2 = UIImage(named: "Card2")
+            let image3 = UIImage(named: "Card3")
+            let image4 = UIImage(named: "Card4")
+            let image5 = UIImage(named: "Card5")
+            let image6 = UIImage(named: "Card6")
             button.setImage(image, for: .normal)
             button2.setImage(image2, for: .normal)
             button3.setImage(image3, for: .normal)
