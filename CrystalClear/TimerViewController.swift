@@ -133,6 +133,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     
         override func viewDidDisappear(_ animated: Bool) {
+            isPlaying = false
                 timerChecker = false
                 if Int(thisSong) == 0 {
                     do{

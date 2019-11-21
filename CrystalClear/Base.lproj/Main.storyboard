@@ -213,6 +213,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfS-i2-Jrc">
                                 <rect key="frame" x="148" y="338" width="79" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="button"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <state key="normal" title="Button" image="pause_button"/>
                                 <connections>
                                     <action selector="playOrPauseMusic:" destination="ePP-5R-X85" eventType="touchUpInside" id="jCY-sz-4IW"/>
@@ -235,6 +237,9 @@
                         <viewLayoutGuide key="safeArea" id="nnI-py-HTD"/>
                     </view>
                     <navigationItem key="navigationItem" id="wf7-7p-4Sn" customClass="backBar"/>
+                    <connections>
+                        <outlet property="pauseChange" destination="NfS-i2-Jrc" id="rCl-dD-bNc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1L-XY-ZrL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

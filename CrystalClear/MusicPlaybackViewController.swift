@@ -19,13 +19,16 @@ class MusicPlaybackViewController: UIViewController {
         if isPlaying {
             audioPlayer.pause()
             isPlaying = false
-            sender.setImage(UIImage(named: "play_button"), for: .normal)
+            pauseChange.setImage(UIImage(named: "play_button"), for: .normal)
          } else if (isPlaying == false) {
             audioPlayer.play()
             isPlaying = true
-            sender.setImage(UIImage(named: "pause_button"), for: .normal)
+            pauseChange.setImage(UIImage(named: "pause_button"), for: .normal)
          }
     }
+    
+    @IBOutlet weak var pauseChange: UIButton!
+
     
     @IBAction func prev(_ sender: UIButton!) {
         if thisSong != 0 && audioSelected == true {
@@ -62,6 +65,10 @@ class MusicPlaybackViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        pauseChange.setImage(UIImage(named: "play_button"), for: .normal)
     }
     
     override func viewWillDisappear(_ animated: Bool)
