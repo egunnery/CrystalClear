@@ -1,6 +1,8 @@
 # CrystalClear
 
-An iOS to app to promote a modern, healthy lifestyle. 
+[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/Naereen/badges)
+
+An iOS app to promote a modern, healthy lifestyle including tips and meditation features. 
 
 ## To run in Xcode
 
