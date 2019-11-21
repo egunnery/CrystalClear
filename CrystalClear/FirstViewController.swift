@@ -18,9 +18,13 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var button4: UIButton!
     @IBOutlet weak var button5: UIButton!
     @IBOutlet weak var button6: UIButton!
+    @IBOutlet weak var nightBtn: UIButton!
+    @IBOutlet weak var dayBtn: UIButton!
     
     @IBAction func dayFlip(_ sender: Any) {
         if card.isDay == false {
+            nightBtn.isHidden = false
+            dayBtn.isHidden = true
             card.isDay = true
             let image = UIImage(named: "bazaar")
             let image2 = UIImage(named: "pexels-photo-255501")
@@ -44,6 +48,8 @@ class FirstViewController: UIViewController {
     }
     @IBAction func nightFlip(_ sender: Any) {
         if card.isDay == true {
+            nightBtn.isHidden = true
+            dayBtn.isHidden = false
             card.isDay = false
             let image = UIImage(named: "Card1")
             let image2 = UIImage(named: "Card2")
@@ -84,6 +90,15 @@ class FirstViewController: UIViewController {
         super.viewDidLoad()
         
         self.tabBarController?.navigationItem.hidesBackButton = true
+        
+        dayBtn.isHidden = true
+        dayBtn.layer.borderColor = UIColor(red:0.01, green:0.09, blue:0.46, alpha:1.0).cgColor
+        dayBtn.layer.borderWidth = 1.0
+        dayBtn.layer.cornerRadius = 10.0
+        dayBtn.layer.masksToBounds = true
+        
+        nightBtn.layer.cornerRadius = 10.0
+        nightBtn.layer.masksToBounds = true
         
         button.layer.cornerRadius = 10.0
         button.layer.masksToBounds = true

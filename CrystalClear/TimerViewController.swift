@@ -130,7 +130,6 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 if Int(thisSong) == 0 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath1!))
-                        audioPlayer?.play()
                     }
                     catch {
                         print ("ERROR");
@@ -139,7 +138,6 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 else if Int(thisSong) == 1 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath2!))
-                        audioPlayer?.play()
                     }
                     catch {
                         print ("ERROR");
@@ -148,7 +146,6 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
                 else if Int(thisSong) == 2 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath3!))
-                        audioPlayer?.play()
                     }
                     catch {
                         print ("ERROR");
