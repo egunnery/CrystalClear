@@ -12,7 +12,7 @@ import AVFoundation
 class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
     let timerSong = Int(thisSong)
-    let pickerData = ["5 Minutes", "10 Minutes", "20 Minutes"]
+    let pickerData = ["10 Seconds", "5 Minutes", "10 Minutes", "20 Minutes"]
     var countdownTimer: Timer!
     var totalTime = 60
     var valueSelected = ""
@@ -73,12 +73,19 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     
     func timeSelector() {
-        if String(valueSelected) == "5 Minutes" {
+        
+        if String(valueSelected) == "10 Seconds" {
+            totalTime = 10
+        }
+        
+        else if valueSelected == "" {
+            totalTime = 10
+        }
+        
+        else if String(valueSelected) == "5 Minutes" {
             totalTime = 300
         }
-        else if valueSelected == "" {
-            totalTime = 300
-            }
+
         else {
             timeString = String(valueSelected.prefix(2))
             let timeSelected = Int(timeString) ?? 0
