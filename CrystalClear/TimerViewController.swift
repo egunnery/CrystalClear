@@ -74,10 +74,10 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     func timeSelector() {
         if String(valueSelected) == "5 Minutes" {
-            totalTime = 300
+            totalTime = 3
         }
         else if valueSelected == "" {
-            totalTime = 300
+            totalTime = 3
             }
         else {
             timeString = String(valueSelected.prefix(2))
@@ -126,9 +126,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     }
     
         override func viewDidDisappear(_ animated: Bool) {
-            if isPlaying {
                 timerChecker = false
-            }
                 if Int(thisSong) == 0 {
                     do{
                         audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath1!))
