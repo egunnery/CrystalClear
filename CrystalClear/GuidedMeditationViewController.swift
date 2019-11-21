@@ -39,6 +39,8 @@ class GuidedMeditationViewController: UIViewController, UITableViewDelegate, UIT
            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             thisSong = indexPath.row
             audioSelected = true
+            audioPlayer.play()
+            isPlaying = true
             
             //code for segue to work
             performSegue(withIdentifier: "meditationPlayer", sender: self)

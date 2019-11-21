@@ -15,13 +15,15 @@ class MusicPlaybackViewController: UIViewController {
     var isPlaying = false
     var timer:Timer!
     
-    @IBAction func playOrPauseMusic(_ sender: Any) {
+    @IBAction func playOrPauseMusic(_ sender: UIButton) {
         if isPlaying {
             audioPlayer.pause()
             isPlaying = false
-         } else {
-             audioPlayer.play()
-             isPlaying = true
+            sender.setImage(UIImage(named: "play_button"), for: .normal)
+         } else if (isPlaying == false) {
+            audioPlayer.play()
+            isPlaying = true
+            sender.setImage(UIImage(named: "pause_button"), for: .normal)
          }
     }
     
