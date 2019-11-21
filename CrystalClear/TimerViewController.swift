@@ -74,10 +74,10 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
     func timeSelector() {
         if String(valueSelected) == "5 Minutes" {
-            totalTime = 3
+            totalTime = 300
         }
         else if valueSelected == "" {
-            totalTime = 3
+            totalTime = 300
             }
         else {
             timeString = String(valueSelected.prefix(2))
