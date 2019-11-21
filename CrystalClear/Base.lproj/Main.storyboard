@@ -226,6 +226,10 @@
                                     <segue destination="Bbz-9T-js5" kind="show" id="3lQ-63-VUk"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="audio_playing_image" translatesAutoresizingMaskIntoConstraints="NO" id="AKN-cg-qlk">
+                                <rect key="frame" x="-18" y="35" width="411" height="271"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="nnI-py-HTD"/>
@@ -234,7 +238,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1L-XY-ZrL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3611.594202898551" y="361.60714285714283"/>
+            <point key="canvasLocation" x="3610.4000000000001" y="361.33004926108379"/>
         </scene>
         <!--Timer View Controller-->
         <scene sceneID="uE4-L8-gy6">
@@ -537,6 +541,7 @@ meditation</string>
         <image name="1200px-Rewind_font_awesome" width="1200" height="1200"/>
         <image name="agriculture-basket" width="4789" height="3193"/>
         <image name="appetizing-bread-breakfast-close-up-357573" width="3064" height="4596"/>
+        <image name="audio_playing_image" width="1000" height="888"/>
         <image name="bazaar" width="3581" height="4013"/>
         <image name="book" catalog="system" width="64" height="50"/>
         <image name="clear-glass-bottle-filled-with-broccoli-shake-1346347" width="3558" height="3558"/>
