@@ -98,7 +98,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         
         if totalTime != 0 {
             totalTime -= 1
-        } else {
+        } else if timerOn {
             playThis()
             endTimer()
         }
@@ -134,6 +134,7 @@ class TimerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
     
         override func viewDidDisappear(_ animated: Bool) {
             isPlaying = false
+                timerOn = false
                 timerChecker = false
                 if Int(thisSong) == 0 {
                     do{
