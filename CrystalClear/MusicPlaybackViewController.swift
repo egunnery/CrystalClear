@@ -12,7 +12,7 @@ import AVFoundation
 
 class MusicPlaybackViewController: UIViewController {
     
-    var isPlaying = false
+
     var timer:Timer!
     
     @IBAction func playOrPauseMusic(_ sender: UIButton) {

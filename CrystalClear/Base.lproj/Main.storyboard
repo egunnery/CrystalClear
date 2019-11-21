@@ -201,7 +201,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NfS-i2-Jrc">
                                 <rect key="frame" x="148" y="338" width="79" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="31128"/>
+                                <state key="normal" title="Button" image="pause_button"/>
                                 <connections>
                                     <action selector="playOrPauseMusic:" destination="ePP-5R-X85" eventType="touchUpInside" id="jCY-sz-4IW"/>
                                 </connections>
@@ -524,7 +524,6 @@ meditation</string>
     <resources>
         <image name="1200px-Forward_font_awesome.svg" width="1200" height="1200"/>
         <image name="1200px-Rewind_font_awesome" width="1200" height="1200"/>
-        <image name="31128" width="512" height="512"/>
         <image name="agriculture-basket" width="4789" height="3193"/>
         <image name="appetizing-bread-breakfast-close-up-357573" width="3064" height="4596"/>
         <image name="bazaar" width="3581" height="4013"/>
@@ -533,6 +532,7 @@ meditation</string>
         <image name="darrell-cassell-hoCXpPUMCoE-unsplash" width="3264" height="2448"/>
         <image name="gaelle-marcel-f9J5L_2u-I0-unsplash" width="3244" height="3446"/>
         <image name="lightbulb" catalog="system" width="56" height="64"/>
+        <image name="pause_button" width="888" height="980"/>
         <image name="pexels-photo-255501" width="1000" height="1500"/>
         <image name="pexels-photo-842571" width="938" height="874"/>
     </resources>
