@@ -49,7 +49,7 @@ class FirstViewController: UIViewController {
             let image2 = UIImage(named: "night2")
             let image3 = UIImage(named: "night3")
             let image4 = UIImage(named: "night4")
-            let image5 = UIImage(named: "night6")
+            let image5 = UIImage(named: "night5")
             let image6 = UIImage(named: "night6")
             button.setImage(image, for: .normal)
             button2.setImage(image2, for: .normal)

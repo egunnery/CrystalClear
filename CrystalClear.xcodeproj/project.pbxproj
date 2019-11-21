@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		104844CC237EFBC60089EDA2 /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104844CB237EFBC60089EDA2 /* CardTests.swift */; };
+		10519FCE23869780008C2327 /* Ocean Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10519FCD23869760008C2327 /* Ocean Waves.mp3 */; };
 		3F0138B1237C5F91001C9389 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F0CCAE8237F315900704EA0 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CCAE4237F315900704EA0 /* logo.gif */; };
 		3F0CCB05237F33ED00704EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0CCB04237F33ED00704EA0 /* LaunchScreen.storyboard */; };
@@ -15,7 +16,6 @@
 		3F0CCB09237F407900704EA0 /* LogoAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CCB08237F407900704EA0 /* LogoAnimationView.swift */; };
 		3F0CCB0B237F527A00704EA0 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CCB0A237F527A00704EA0 /* UIView+Constraints.swift */; };
 		3F29568F238421D400CCF211 /* Bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F29568E238421D400CCF211 /* Bell.mp3 */; };
-		3F7660262385F3D1003F98DF /* Ocean Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F7660252385F3D1003F98DF /* Ocean Waves.mp3 */; };
 		3F8708CC238315B0009A1172 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8708CB238315B0009A1172 /* TimerViewController.swift */; };
 		526FD52C237D8089004151B3 /* MusicPlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526FD52B237D8089004151B3 /* MusicPlaybackViewController.swift */; };
 		52966ECE237EBC9200CA2A8D /* Songs in Resources */ = {isa = PBXBuildFile; fileRef = 52966ECD237EBC9200CA2A8D /* Songs */; };
@@ -73,6 +73,7 @@
 /* Begin PBXFileReference section */
 		03073FC4B05496123304DBE6 /* Pods-CrystalClearTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClearTests.release.xcconfig"; path = "Target Support Files/Pods-CrystalClearTests/Pods-CrystalClearTests.release.xcconfig"; sourceTree = "<group>"; };
 		104844CB237EFBC60089EDA2 /* CardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTests.swift; sourceTree = "<group>"; };
+		10519FCD23869760008C2327 /* Ocean Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ocean Waves.mp3"; sourceTree = "<group>"; };
 		10AF6F192379F43C00C27416 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		126ED150EFFB9B4819988156 /* Pods_CrystalClearTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClearTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F30A071DDFF42DCBAD29A6A /* Pods_CrystalClear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrystalClear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +83,6 @@
 		3F0CCB08237F407900704EA0 /* LogoAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoAnimationView.swift; sourceTree = "<group>"; };
 		3F0CCB0A237F527A00704EA0 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
 		3F29568E238421D400CCF211 /* Bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bell.mp3; sourceTree = "<group>"; };
-		3F7660232385F3A4003F98DF /* Ocean Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ocean Waves.mp3"; sourceTree = "<group>"; };
 		3F7660252385F3D1003F98DF /* Ocean Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ocean Waves.mp3"; path = "../../student/Desktop/Ocean Waves.mp3"; sourceTree = "<group>"; };
 		3F8708CB238315B0009A1172 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		4CE5D414B5403A7F6905BFBA /* Pods-CrystalClear-CrystalClearUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; path = "Target Support Files/Pods-CrystalClear-CrystalClearUITests/Pods-CrystalClear-CrystalClearUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,7 +152,7 @@
 			children = (
 				52AA415C237F087700883923 /* test.mp3 */,
 				52CCDD6123859F4C009B5E87 /* Meditation1.m4a */,
-				3F7660232385F3A4003F98DF /* Ocean Waves.mp3 */,
+				10519FCD23869760008C2327 /* Ocean Waves.mp3 */,
 				52AA4159237F07CA00883923 /* bensound-summer.mp3 */,
 				52972B6623798DF300A95BF2 /* CrystalClear */,
 				52972B8223798DF600A95BF2 /* CrystalClearTests */,
@@ -366,9 +366,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10519FCE23869780008C2327 /* Ocean Waves.mp3 in Resources */,
 				3F29568F238421D400CCF211 /* Bell.mp3 in Resources */,
 				52AA415E237F087700883923 /* test.mp3 in Resources */,
-				3F7660262385F3D1003F98DF /* Ocean Waves.mp3 in Resources */,
 				3F0CCB05237F33ED00704EA0 /* LaunchScreen.storyboard in Resources */,
 				52CCDD6223859F4C009B5E87 /* Meditation1.m4a in Resources */,
 				52AA415A237F07CA00883923 /* bensound-summer.mp3 in Resources */,
